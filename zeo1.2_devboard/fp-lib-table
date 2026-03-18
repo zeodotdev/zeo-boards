@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ANT3216LL00R2400A") (type "KiCad") (uri "${KIPRJMOD}/libraries/ANT3216LL00R2400A/ANT3216LL00R2400A.pretty") (options "") (descr ""))
+	(lib (name "MAX-M10S-00B") (type "KiCad") (uri "${KIPRJMOD}/libraries/MAX-M10S-00B/MAX-M10S-00B.pretty") (options "") (descr ""))
+	(lib (name "W3011") (type "KiCad") (uri "${KIPRJMOD}/libraries/W3011/W3011.pretty") (options "") (descr ""))
+	(lib (name "SKTAACE010") (type "KiCad") (uri "${KIPRJMOD}/libraries/SKTAACE010/SKTAACE010.pretty") (options "") (descr ""))
+)

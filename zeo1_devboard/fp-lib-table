@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ANT3216LL00R2400A") (type "KiCad") (uri "${KIPRJMOD}/libraries/ANT3216LL00R2400A/ANT3216LL00R2400A.pretty") (options "") (descr ""))
+)
