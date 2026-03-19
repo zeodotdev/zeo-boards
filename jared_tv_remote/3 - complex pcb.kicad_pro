@@ -50,10 +50,16 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -186,7 +192,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -213,7 +221,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -504,22 +517,25 @@
         "name": "IR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "schematic_color": "rgb(255, 102, 0)",
+        "tuning_profile": "",
+        "wire_width": 6
       },
       {
         "name": "Matrix",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "schematic_color": "rgb(0, 153, 51)",
+        "tuning_profile": "",
+        "wire_width": 6
       },
       {
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "schematic_color": "rgb(204, 0, 0)",
+        "tuning_profile": "",
+        "wire_width": 12
       },
       {
         "name": "Status",
@@ -527,6 +543,25 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgb(0, 102, 204)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 8
       },
       {
         "name": "USB_Diff",
@@ -548,42 +583,42 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/Power Supply/VSTOR"
+        "pattern": "GND"
       },
       {
         "netclass": "Power",
         "pattern": "/VBUS"
       },
       {
-        "netclass": "GND",
-        "pattern": "GND"
+        "netclass": "Power",
+        "pattern": "*/VSTOR"
       },
       {
-        "netclass": "USB_Diff",
-        "pattern": "/USB_DM"
-      },
-      {
-        "netclass": "USB_Diff",
+        "netclass": "USB",
         "pattern": "/USB_DP"
       },
       {
-        "netclass": "IR",
-        "pattern": "/IR_RX"
+        "netclass": "USB",
+        "pattern": "/USB_DM"
       },
       {
         "netclass": "IR",
         "pattern": "/IR_TX"
       },
       {
-        "netclass": "Matrix",
-        "pattern": "/COL*"
+        "netclass": "IR",
+        "pattern": "/IR_RX"
       },
       {
         "netclass": "Matrix",
         "pattern": "/ROW*"
       },
       {
-        "netclass": "Status",
+        "netclass": "Matrix",
+        "pattern": "/COL*"
+      },
+      {
+        "netclass": "IR",
         "pattern": "/STATUS_LED"
       }
     ]
@@ -592,7 +627,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "export/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -716,7 +751,7 @@
         "uuid": "9fdc1b44-fae0-464f-8449-2cd33e53f6ad"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U4",
     "variants": []
   },
   "sheets": [

@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "E6QYDD1204-IRA940nm") (type "KiCad") (uri "${KIPRJMOD}/libraries/E6QYDD1204-IRA940nm/E6QYDD1204-IRA940nm.pretty") (options "") (descr ""))
+)

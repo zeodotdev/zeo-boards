@@ -711,6 +711,188 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "E6QYDD1204-IRA940nm:E6QYDD1204-IRA940NM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "E6QYDD1204-IRA940NM"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "E6QYDD1204-IRA940nm:LED-SMD_L3.2-W2.1-R-FD"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_EKINGLUX-E6QYDD1204-IRA940nm_C396649.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C396649"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "E6QYDD1204-IRA940NM_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.52) (xy 1.27 0) (xy -1.27 1.78) (xy -1.27 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.02 2.54) (xy 2.79 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.03) (xy 1.27 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.03 1.52) (xy 3.81 3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.79 4.32) (xy 1.78 3.81) (xy 2.29 3.3) (xy 2.79 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.3) (xy 2.79 2.79) (xy 3.3 2.29) (xy 3.81 3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_Optical:TSOP321xx"
 			(pin_names
 				(offset 1.016)
@@ -1739,16 +1921,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 22.86) (xy 73.66 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "325731e6-414e-43e0-992d-4dbf68e9fef4")
-	)
-	(wire
-		(pts
 			(xy 50.8 93.98) (xy 49.53 93.98)
 		)
 		(stroke
@@ -2348,7 +2520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 172.72 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2586,7 +2758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 207.01 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2745,7 +2917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 207.01 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2825,7 +2997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 138.43 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2905,7 +3077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 207.01 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3113,7 +3285,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 73.66 22.86 0)
+		(at 73.66 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3123,7 +3295,7 @@
 		(dnp no)
 		(uuid "5b27ab33-f7dd-41da-a5b7-655f8016b715")
 		(property "Reference" "#PWR4"
-			(at 73.66 26.67 0)
+			(at 73.66 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3134,7 +3306,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 73.66 19.304 0)
+			(at 73.66 20.574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3144,7 +3316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 22.86 0)
+			(at 73.66 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3155,7 +3327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 22.86 0)
+			(at 73.66 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3166,7 +3338,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 73.66 22.86 0)
+			(at 73.66 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3310,7 +3482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 172.72 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3641,7 +3813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3721,7 +3893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 172.72 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3801,7 +3973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 138.43 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3881,7 +4053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 207.01 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3961,7 +4133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 172.72 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4041,7 +4213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 207.01 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4084,6 +4256,99 @@
 			(project ""
 				(path "/9fdc1b44-fae0-464f-8449-2cd33e53f6ad/059ebac3-52af-4ed5-bc20-6bf6d2796db6"
 					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "E6QYDD1204-IRA940nm:E6QYDD1204-IRA940NM")
+		(at 73.66 29.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b160a742-f61d-4f42-92be-242b85b1faaf")
+		(property "Reference" "U4"
+			(at 77.47 26.6699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "E6QYDD1204-IRA940NM"
+			(at 77.47 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "E6QYDD1204-IRA940nm:LED-SMD_L3.2-W2.1-R-FD"
+			(at 81.28 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_EKINGLUX-E6QYDD1204-IRA940nm_C396649.html"
+			(at 83.82 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C396649"
+			(at 86.36 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d7c256f9-b715-4202-acdf-8eac30e202e3")
+		)
+		(pin "1"
+			(uuid "dbd69fdd-88b1-4b21-a15f-f892eb6294bc")
+		)
+		(instances
+			(project ""
+				(path "/9fdc1b44-fae0-464f-8449-2cd33e53f6ad/059ebac3-52af-4ed5-bc20-6bf6d2796db6"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4275,7 +4540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 138.43 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4355,7 +4620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 172.72 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4435,7 +4700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 138.43 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4478,96 +4743,6 @@
 			(project ""
 				(path "/9fdc1b44-fae0-464f-8449-2cd33e53f6ad/059ebac3-52af-4ed5-bc20-6bf6d2796db6"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 73.66 30.48 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d8727ef2-84af-41ec-9f50-647e7ab515f9")
-		(property "Reference" "D2"
-			(at 76.2 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IR_940nm"
-			(at 71.12 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 73.66 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 73.66 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 73.66 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5dcce3d-7670-4fbc-a147-a776d1b3e949")
-		)
-		(pin "2"
-			(uuid "c164d0d7-5e3e-45a3-81e4-9d36eeb7712a")
-		)
-		(instances
-			(project ""
-				(path "/9fdc1b44-fae0-464f-8449-2cd33e53f6ad/059ebac3-52af-4ed5-bc20-6bf6d2796db6"
-					(reference "D2")
 					(unit 1)
 				)
 			)
