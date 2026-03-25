@@ -50,21 +50,10 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        },
-        {
-          "gap": 0.15,
-          "via_gap": 0.2,
-          "width": 0.2
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -134,22 +123,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.3,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.254,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.15,
-        "min_text_height": 1.0,
-        "min_text_thickness": 0.15,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.56,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -197,15 +186,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.127,
-        0.15,
-        0.2,
-        0.25,
-        0.3,
-        0.5
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -232,20 +213,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.8,
-          "drill": 0.4
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -501,15 +469,15 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ZeoEnvModule.kicad_pro",
+    "filename": "zeo_compute_module.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.2,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -517,92 +485,13 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.2,
-        "name": "Analog",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.15,
-        "name": "Digital",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "Ground",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.15,
-        "name": "High_Speed",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.15,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.2,
-        "name": "USB_Diff",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.15,
-        "name": "Unconnected",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -610,128 +499,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Power Supply/VBAT"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Power Supply/VBUS"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Power Supply/VSYS"
-      },
-      {
-        "netclass": "Ground",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "USB_Diff",
-        "pattern": "/USB_D+"
-      },
-      {
-        "netclass": "USB_Diff",
-        "pattern": "/USB_D-"
-      },
-      {
-        "netclass": "High_Speed",
-        "pattern": "/SCL"
-      },
-      {
-        "netclass": "High_Speed",
-        "pattern": "/SDA"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/IMU_INT1"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/MCU/BOOT"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/MCU/EN"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "Net-(J2-CC1)"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "Net-(J2-CC2)"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "Net-(U2-PROG1)"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "Net-(U2-PROG2)"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "Net-(U2-PROG3)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(U2-SEL)"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "Net-(U2-THERM)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "Net-(U2-VPCC)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(U3-EN)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(U5-CSB)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(U6-CS)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D2-A)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D2-K)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D3-A)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D3-K)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D4-A)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D4-K)"
-      },
-      {
-        "netclass": "Unconnected",
-        "pattern": "unconnected-*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -856,30 +624,54 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ZeoEnvModule.kicad_sch",
+        "filename": "zeo_compute_module.kicad_sch",
         "name": "Root",
-        "uuid": "7dde0271-9096-4d7f-90ff-b1385f0d68cc"
+        "uuid": "50dd5bcb-70d1-4a02-8a86-d6cd1ccf8b3d"
       }
     ],
-    "used_designators": "C13,#PWR20",
+    "used_designators": "X1-2,L1-12,R1-15,#PWR1-89,C1-61,CN1-2,U1-8",
     "variants": []
   },
   "sheets": [
     [
-      "7dde0271-9096-4d7f-90ff-b1385f0d68cc",
+      "50dd5bcb-70d1-4a02-8a86-d6cd1ccf8b3d",
       "Root"
     ],
     [
-      "628fe19f-8748-4cf5-a121-d657d89b004a",
+      "19bcf6e9-1cb3-4cbf-b1c7-2e627a53abba",
+      "Board Connectors"
+    ],
+    [
+      "839976fa-8dec-452d-9185-82f1f6845b59",
       "Power Supply"
     ],
     [
-      "54fbecbf-0767-4a75-826d-85d656c7af7c",
-      "MCU"
+      "438e7488-9ef2-48d3-90ba-c544089bb309",
+      "DDR CH0"
     ],
     [
-      "1c026202-e4a2-4a46-8368-86b52998b1a5",
-      "Sensors"
+      "b93266c9-0785-497d-af9d-b3ca2ad7a6be",
+      "DDR CH1"
+    ],
+    [
+      "977c367f-adda-4936-8ed8-32b74a918437",
+      "Camera and MIPI"
+    ],
+    [
+      "ca1d0960-d2f4-482a-b814-5a508396829a",
+      "HDMI and Display"
+    ],
+    [
+      "f235ec7c-59ef-479a-b68d-a528eaea6270",
+      "WiFi and Bluetooth"
+    ],
+    [
+      "eb476f81-e150-41ce-8fc3-9cf951f8ee74",
+      "USB, PCIe and Clock and Boot"
+    ],
+    [
+      "6c8d3d8c-799d-4810-a730-effb6a51874d",
+      "Storgage, Ethernet and GPIO"
     ]
   ],
   "text_variables": {},
