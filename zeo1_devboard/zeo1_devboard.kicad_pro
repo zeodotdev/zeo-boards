@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -1020,7 +1020,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 3,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -1053,7 +1053,7 @@
         "uuid": "1d9d5540-a5fb-439a-a7fc-dd6397c3c196"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR33-34,#PWR39,#PWR44",
     "variants": []
   },
   "sheets": [
