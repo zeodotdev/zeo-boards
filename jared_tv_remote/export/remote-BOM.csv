@@ -1,38 +1,38 @@
-Id,Designator,Footprint,Quantity,Comment,Supplier and ref
-1,"C1, C2, C7, C8, C9",C_0402_1005Metric,5,100nF,
-2,"C3, C5, C6",C_0402_1005Metric,3,1uF,
-3,C4,C_1210_3225Metric,1,1F/5.5V,
-4,"C10, C11",C_0402_1005Metric,2,22pF,
-5,D1,LED_0603_1608Metric,1,Green,
-6,"D3, D4, D5",D_SOD-323,3,BAT54,
-7,J1,SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm,1,Solar_Panel,
-8,J2,USB_C_Receptacle_HRO_TYPE-C-31-M-12,1,USB_C_Receptacle_USB2.0_14P,
-9,J3,SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm,1,Solar_Panel_Back,
-10,Q1,SOT-23,1,Q_NPN,
-11,R1,R_0402_1005Metric,1,100,
-12,"R2, R9",R_0402_1005Metric,2,10k,
-13,R3,R_0402_1005Metric,1,330,
-14,R4,R_0402_1005Metric,1,1k,
-15,R5,R_0805_2012Metric,1,10,
-16,R6,R_0402_1005Metric,1,22,
-17,"R7, R8",R_0402_1005Metric,2,5.1k,
-18,SW1,SW_SPST_B3SL-1002P,1,Power,
-19,SW2,SW_SPST_B3SL-1002P,1,Up,
-20,SW3,SW_SPST_B3SL-1002P,1,Mute,
-21,SW4,SW_SPST_B3SL-1002P,1,Left,
-22,SW5,SW_SPST_B3SL-1002P,1,Select,
-23,SW6,SW_SPST_B3SL-1002P,1,Right,
-24,SW7,SW_SPST_B3SL-1002P,1,Vol-,
-25,SW8,SW_SPST_B3SL-1002P,1,Down,
-26,SW9,SW_SPST_B3SL-1002P,1,Vol+,
-27,SW10,SW_SPST_B3SL-1002P,1,Back,
-28,SW11,SW_SPST_B3SL-1002P,1,Home,
-29,SW12,SW_SPST_B3SL-1002P,1,Source,
-30,SW13,SW_SPST_B3SL-1002P,1,C1,
-31,SW14,SW_SPST_B3SL-1002P,1,C2,
-32,SW15,SW_SPST_B3SL-1002P,1,Learn,
-33,U1,Everlight_IRM-H6xxT,1,IRM-H638T,
-34,U2,TQFP-44_10x10mm_P0.8mm,1,ATmega32U4-A,
-35,U3,SOT-23,1,MCP1700-3.3V,
-36,U4,LED-SMD_L3.2-W2.1-R-FD,1,E6QYDD1204-IRA940NM,
-37,Y1,Crystal_SMD_3215-2Pin_3.2x1.5mm,1,16MHz,
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C1, C2, C7, C8, C9";"C_0402_1005Metric";5;"100nF";;;
+2;"C3, C5, C6";"C_0402_1005Metric";3;"1uF";;;
+3;"C4";"C_1210_3225Metric";1;"1F/5.5V";;;
+4;"C10, C11";"C_0402_1005Metric";2;"22pF";;;
+5;"D1";"LED_0603_1608Metric";1;"Green";;;
+6;"D3, D4, D5";"D_SOD-323";3;"BAT54";;;
+7;"J1";"SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm";1;"Solar_Panel";;;
+8;"J2";"USB_C_Receptacle_HRO_TYPE-C-31-M-12";1;"USB_C_Receptacle_USB2.0_14P";;;
+9;"J3";"SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm";1;"Solar_Panel_Back";;;
+10;"Q1";"SOT-23";1;"Q_NPN";;;
+11;"R1";"R_0402_1005Metric";1;"100";;;
+12;"R2, R9";"R_0402_1005Metric";2;"10k";;;
+13;"R3";"R_0402_1005Metric";1;"330";;;
+14;"R4";"R_0402_1005Metric";1;"1k";;;
+15;"R5";"R_0805_2012Metric";1;"10";;;
+16;"R6";"R_0402_1005Metric";1;"22";;;
+17;"R7, R8";"R_0402_1005Metric";2;"5.1k";;;
+18;"SW1";"SW_SPST_B3SL-1002P";1;"Power";;;
+19;"SW2";"SW_SPST_B3SL-1002P";1;"Up";;;
+20;"SW3";"SW_SPST_B3SL-1002P";1;"Mute";;;
+21;"SW4";"SW_SPST_B3SL-1002P";1;"Left";;;
+22;"SW5";"SW_SPST_B3SL-1002P";1;"Select";;;
+23;"SW6";"SW_SPST_B3SL-1002P";1;"Right";;;
+24;"SW7";"SW_SPST_B3SL-1002P";1;"Vol-";;;
+25;"SW8";"SW_SPST_B3SL-1002P";1;"Down";;;
+26;"SW9";"SW_SPST_B3SL-1002P";1;"Vol+";;;
+27;"SW10";"SW_SPST_B3SL-1002P";1;"Back";;;
+28;"SW11";"SW_SPST_B3SL-1002P";1;"Home";;;
+29;"SW12";"SW_SPST_B3SL-1002P";1;"Source";;;
+30;"SW13";"SW_SPST_B3SL-1002P";1;"C1";;;
+31;"SW14";"SW_SPST_B3SL-1002P";1;"C2";;;
+32;"SW15";"SW_SPST_B3SL-1002P";1;"Learn";;;
+33;"U1";"Everlight_IRM-H6xxT";1;"IRM-H638T";;;
+34;"U2";"TQFP-44_10x10mm_P0.8mm";1;"ATmega32U4-A";;;
+35;"U3";"SOT-23";1;"MCP1700-3.3V";;;
+36;"U4";"LED-SMD_L3.2-W2.1-R-FD";1;"E6QYDD1204-IRA940NM";;;
+37;"Y1";"Crystal_SMD_HC49-SD";1;"16MHz";;;

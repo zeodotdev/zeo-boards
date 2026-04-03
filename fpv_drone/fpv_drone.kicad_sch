@@ -1,0 +1,1442 @@
+(kicad_sch
+	(version 20260101)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "bcc951e4-6780-442e-8e93-0576bc471757")
+	(paper "A4")
+	(lib_symbols)
+	(label "SPI2_MOSI"
+		(at 147.32 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "01783ad6-c9be-454e-9949-5cfa915d5e3e")
+	)
+	(label "IMU_MOSI"
+		(at 147.32 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "0612d9d1-0538-4745-89a1-6e65bf5e78d7")
+	)
+	(label "IMU_MISO"
+		(at 147.32 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "0dd66be2-3f3f-4f55-9bc2-4ae71016695e")
+	)
+	(label "IMU_SCK"
+		(at 88.9 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e02c75b-37a0-4d8e-8145-86b07e5302f9")
+	)
+	(label "SWCLK"
+		(at 147.32 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e6b310b-3a8c-425f-8e78-766d0adae6a7")
+	)
+	(label "ESC_TX"
+		(at 88.9 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "11f2849b-e4aa-45f9-a5fc-0413c08575d2")
+	)
+	(label "BUZZER"
+		(at 147.32 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "136d2747-518d-46a3-b69a-183c3aca39ed")
+	)
+	(label "LED_DATA"
+		(at 88.9 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "16bea150-9ee5-495d-84e9-37f1ea56ef21")
+	)
+	(label "MOT2_PWM"
+		(at 147.32 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "17b2e4b1-04fb-428e-83b0-c9fe6cc6e880")
+	)
+	(label "ESC_RX"
+		(at 147.32 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a6f0d91-64ec-4904-bba8-7251e03e0a1f")
+	)
+	(label "SPI2_MOSI"
+		(at 88.9 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "22b47f51-1761-4d65-90b4-da31057715e8")
+	)
+	(label "BARO_SCL"
+		(at 88.9 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c82c419-3c53-4c98-8bc8-84fd9bfebb6d")
+	)
+	(label "FLASH_CS"
+		(at 147.32 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "2cd9353c-994d-42d4-89d7-3f9783daa2a3")
+	)
+	(label "MOT1_PWM"
+		(at 147.32 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "3021e637-f376-491e-852d-015c8a562b6d")
+	)
+	(label "IMU_CS"
+		(at 88.9 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fa3beb9-ea7e-45fb-a3d0-9581b63c5f2e")
+	)
+	(label "SPI2_MOSI"
+		(at 30.48 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "4074d114-d684-4378-b863-7f7525520e40")
+	)
+	(label "MOT1_PWM"
+		(at 88.9 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "4294699a-c32e-46bf-8ed9-802351159e3a")
+	)
+	(label "VBAT_SENSE"
+		(at 88.9 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "43dc5359-63cb-4827-bb5b-e0dcf4f77e92")
+	)
+	(label "SWDIO"
+		(at 88.9 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "451be80e-5172-40dc-a1ce-f8441910b101")
+	)
+	(label "SWCLK"
+		(at 88.9 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "46594c64-fa56-46d5-aaed-2a77916accd8")
+	)
+	(label "BUZZER"
+		(at 88.9 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "49271aba-ae45-4924-a494-9018f73611b2")
+	)
+	(label "ELRS_RX"
+		(at 88.9 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "539d7ecd-c068-4099-9f16-add891aea08f")
+	)
+	(label "SPI2_SCK"
+		(at 30.48 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c2b5fa6-5dbd-4909-a676-1561115725ff")
+	)
+	(label "SPI2_MISO"
+		(at 88.9 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d733cd5-d54b-4c1d-b6b7-95061b834fb9")
+	)
+	(label "SWDIO"
+		(at 147.32 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e6bfcc0-8ff5-4818-8e1b-d1d14976a5be")
+	)
+	(label "ELRS_TX"
+		(at 88.9 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "67594b0a-6d0c-4ee0-ac24-717bd9d904ee")
+	)
+	(label "ESC_RX"
+		(at 147.32 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "71cd5b26-d9ba-4ca7-bea5-a48d9fad43f8")
+	)
+	(label "BARO_SDA"
+		(at 147.32 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "72102e43-3049-40ac-aae4-5a29181ca9f2")
+	)
+	(label "ESC_RX"
+		(at 147.32 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "72ce9da2-7780-46a3-bb23-d7315925a73a")
+	)
+	(label "IMU_MISO"
+		(at 88.9 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "73a009e6-c1d9-48da-9194-8657bb91bc1e")
+	)
+	(label "SPI2_SCK"
+		(at 88.9 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b21ba21-3d22-4334-88ec-b73524b831f4")
+	)
+	(label "IMU_CS"
+		(at 147.32 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b96005c-8343-48b3-aa7e-174d773ecd4e")
+	)
+	(label "ESC_RX"
+		(at 88.9 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bdd93e9-651b-4ee7-8439-4b340b5ab26c")
+	)
+	(label "ELRS_RX"
+		(at 30.48 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d6fe6cc-9739-4a85-94c8-bf40320a99f7")
+	)
+	(label "VBAT_SENSE"
+		(at 147.32 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f829d7a-59a6-4cc4-b5d9-673c43573f51")
+	)
+	(label "IMU_SCK"
+		(at 147.32 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "92e13295-1e84-4578-876c-188247b1bf67")
+	)
+	(label "IMU_MOSI"
+		(at 88.9 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "9338f370-ae98-45f8-8346-6e51d13090c9")
+	)
+	(label "BARO_SDA"
+		(at 88.9 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "93a3e460-9085-4fa4-bf8d-7e93097231c1")
+	)
+	(label "SPI2_MISO"
+		(at 30.48 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "946bfe64-352e-4c71-8668-407d6894411e")
+	)
+	(label "LED_DATA"
+		(at 147.32 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "98fe8c42-d5c1-4357-8271-a9cdd4db7492")
+	)
+	(label "FLASH_CS"
+		(at 88.9 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e085ab6-8e79-4a8b-bf34-92e067f388e6")
+	)
+	(label "MOT2_PWM"
+		(at 88.9 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "a19748df-f4de-474c-80fa-63e97be05789")
+	)
+	(label "MOT4_PWM"
+		(at 88.9 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad5a5fe5-1ae4-45e0-9562-86dc4a7d6fe9")
+	)
+	(label "SPI2_MISO"
+		(at 147.32 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1abf6fb-3af6-48bb-9ab4-6298ebe2d0fb")
+	)
+	(label "MOT3_PWM"
+		(at 88.9 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc58bb69-df6b-4bd0-8e20-0ac4962b297c")
+	)
+	(label "ESC_RX"
+		(at 147.32 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1ca1ea4-726d-46f7-86b8-6111c83ed503")
+	)
+	(label "VTX_SA"
+		(at 30.48 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2b39f85-c30a-437c-8b23-2fcc600070ed")
+	)
+	(label "MOT3_PWM"
+		(at 147.32 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd7adaa9-1733-476b-9bd0-c0a7a966e9f1")
+	)
+	(label "OSD_CS"
+		(at 30.48 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "cfb3a5dd-a727-4c7e-bafd-e105dad9ae71")
+	)
+	(label "OSD_CS"
+		(at 88.9 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "dcb186f3-6360-4f2c-9351-7f77aa2fe303")
+	)
+	(label "BARO_SCL"
+		(at 147.32 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "edb220d7-8ff8-40ee-b231-129aa9e66a42")
+	)
+	(label "SPI2_SCK"
+		(at 147.32 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "f20d26bd-5938-475a-b79b-e44cd89cc1e0")
+	)
+	(label "MOT4_PWM"
+		(at 147.32 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "f669e751-fe80-47e6-a7bf-c2970bdca9a5")
+	)
+	(label "VTX_SA"
+		(at 88.9 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "faf2f213-eea3-4d82-89ca-1aaa196c0417")
+	)
+	(label "ELRS_TX"
+		(at 30.48 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe77c426-6a6e-4dbd-9e93-186e7e06c7fe")
+	)
+	(sheet
+		(at 88.9 30.48)
+		(size 40 101.6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "13299648-f1f3-4bd4-8e43-48027c1ac8eb")
+		(property "Sheetname" "Flight Controller"
+			(at 88.9 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "flight_controller.kicad_sch"
+			(at 88.9 132.6646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BARO_SCL" input
+			(at 88.9 33.02 180)
+			(uuid "fc5d534f-37ef-4fff-b1e1-b4e7261b06c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BARO_SDA" input
+			(at 88.9 35.56 180)
+			(uuid "992056d6-03cb-4f6f-8ca7-a2475af148cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUZZER" input
+			(at 88.9 38.1 180)
+			(uuid "0eee8735-8e9f-4d1a-8b8e-6ec9727480c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ELRS_RX" input
+			(at 88.9 40.64 180)
+			(uuid "e6351a0b-ec51-45a3-8783-cb8f0ec05e25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ELRS_TX" input
+			(at 88.9 43.18 180)
+			(uuid "b441b1c5-702e-42a0-9209-244fb9975632")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESC_RX" input
+			(at 88.9 45.72 180)
+			(uuid "6c715bca-e973-4600-9614-0d1336536e41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESC_TX" input
+			(at 88.9 48.26 180)
+			(uuid "b69a9ebd-d0eb-4929-9649-899842bbf568")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FLASH_CS" input
+			(at 88.9 76.2 180)
+			(uuid "d75d4a0a-2248-4f99-9e10-ca9f8c133ad0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_CS" input
+			(at 88.9 78.74 180)
+			(uuid "e6aa7640-489c-4517-8bdb-02d0fcaf2f0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_MISO" input
+			(at 88.9 66.04 180)
+			(uuid "7f2de7d2-e1e5-45c3-85e3-78b98cec3b15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_MOSI" input
+			(at 88.9 68.58 180)
+			(uuid "99b727ac-5772-4806-b2b6-fe2ce3dc4f26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_SCK" input
+			(at 88.9 60.96 180)
+			(uuid "fbc4e6e2-feaa-411d-990f-b8639ae9639a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_DATA" input
+			(at 88.9 93.98 180)
+			(uuid "dba6ad03-33a5-40e1-8ea6-843a6c4c98fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT1_PWM" input
+			(at 88.9 50.8 180)
+			(uuid "8822b982-795c-4337-809a-f2ab025744e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT2_PWM" input
+			(at 88.9 53.34 180)
+			(uuid "600db0cb-2a98-465d-896a-a3a38bdb6415")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT3_PWM" input
+			(at 88.9 55.88 180)
+			(uuid "041a1996-53b7-4941-8809-9724373a9774")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT4_PWM" input
+			(at 88.9 58.42 180)
+			(uuid "75ab5dc7-40d4-4d28-8258-18d5c7430791")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSD_CS" input
+			(at 88.9 81.28 180)
+			(uuid "4cc26764-d30f-4a73-a6ac-c7565e6ffb77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2_MISO" input
+			(at 88.9 71.12 180)
+			(uuid "6f764fab-313c-42c4-bba6-3f8f5ad99881")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2_MOSI" input
+			(at 88.9 73.66 180)
+			(uuid "1f310412-fe1a-4483-bb25-1758e2bab314")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2_SCK" input
+			(at 88.9 63.5 180)
+			(uuid "2c3e21ce-516a-4d5e-92c7-9ae1a05c15aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 88.9 86.36 180)
+			(uuid "f21a42bd-261a-432c-b214-f5856db40196")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 88.9 88.9 180)
+			(uuid "64409de6-b33e-4754-a6d2-4e3b153fbe66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_SENSE" input
+			(at 88.9 91.44 180)
+			(uuid "d1cc1e54-69d8-49ab-8fbe-2858ee07b034")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VTX_SA" input
+			(at 88.9 83.82 180)
+			(uuid "179c1fd7-16d0-4713-8850-d221bf8361ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 30.48)
+		(size 40 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1fd4f85c-3c72-40d8-a00a-2def0d471526")
+		(property "Sheetname" "Power Supply"
+			(at 30.48 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 30.48 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 69.85)
+		(size 40 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4bd2c227-d82c-4d3f-839d-25bfc486b7c1")
+		(property "Sheetname" "Peripherals"
+			(at 147.32 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 147.32 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_DATA" input
+			(at 147.32 72.39 180)
+			(uuid "7fcb87b5-de70-4725-9fed-d978ac523082")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUZZER" input
+			(at 147.32 74.93 180)
+			(uuid "15364c12-dd70-4b37-a8c7-d0da0ba790be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_SENSE" input
+			(at 147.32 77.47 180)
+			(uuid "cd018be6-7d68-46db-b5a8-f83748e00c52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 147.32 80.01 180)
+			(uuid "2044b9b7-0ef9-4a9c-bffb-58380c7b7a78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 147.32 82.55 180)
+			(uuid "519b6484-47c5-4f5e-95dd-b892fad7c96a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 30.48)
+		(size 40 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5777906f-a045-4995-adae-0ee0fbdca4f8")
+		(property "Sheetname" "ESC"
+			(at 147.32 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esc.kicad_sch"
+			(at 147.32 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESC1_TELEM" input
+			(at 147.32 33.02 180)
+			(uuid "6226cfc1-b1f0-4cbc-b194-2a028fe639ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT1_PWM" input
+			(at 147.32 35.56 180)
+			(uuid "aa749cca-2e51-42c1-a145-12871e253870")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESC2_TELEM" input
+			(at 147.32 38.1 180)
+			(uuid "d8135488-46ce-4896-aea4-686a72a2a5f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT2_PWM" input
+			(at 147.32 40.64 180)
+			(uuid "bfa7c7a8-806f-4531-b99a-3252330b7bb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESC3_TELEM" input
+			(at 147.32 43.18 180)
+			(uuid "efb4bfab-9076-432c-a825-c5aefed7d6f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT3_PWM" input
+			(at 147.32 45.72 180)
+			(uuid "4d77593d-31f6-48aa-a78b-e8b52bfee8b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESC4_TELEM" input
+			(at 147.32 48.26 180)
+			(uuid "e43542a8-525f-4eb0-9cf2-c2467e815302")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT4_PWM" input
+			(at 147.32 50.8 180)
+			(uuid "198624ad-9d80-40d3-8800-7ffe7ccba606")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 104.14)
+		(size 40 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "60edd4ed-b9f8-48f5-b8ae-33743ac48e9e")
+		(property "Sheetname" "IMU and Sensors"
+			(at 147.32 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu_sensors.kicad_sch"
+			(at 147.32 132.6646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IMU_CS" input
+			(at 147.32 106.68 180)
+			(uuid "6865407d-f6ba-4cbf-8e81-2757e58811f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_MISO" input
+			(at 147.32 109.22 180)
+			(uuid "8f715a29-bd98-4c07-9c8c-82441969234f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_MOSI" input
+			(at 147.32 111.76 180)
+			(uuid "fdc15e89-da7a-43ba-976c-ad0d1104bccd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_SCK" input
+			(at 147.32 114.3 180)
+			(uuid "95154c25-f68e-4b2b-a39d-ccbec96638ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BARO_SCL" input
+			(at 147.32 116.84 180)
+			(uuid "ea152347-2c06-4018-ab6d-f2b907a3a69b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BARO_SDA" input
+			(at 147.32 119.38 180)
+			(uuid "8fd18f29-32ec-4038-9ac5-dd92b8fa9451")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FLASH_CS" input
+			(at 147.32 121.92 180)
+			(uuid "bc678e5c-1990-4332-86be-2a59e0f79bd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2_MISO" input
+			(at 147.32 124.46 180)
+			(uuid "c31ee973-e57d-4f33-af79-cda5ca3953b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2_MOSI" input
+			(at 147.32 127 180)
+			(uuid "ad7da28b-f6dd-41e4-831f-52e55c3556a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2_SCK" input
+			(at 147.32 129.54 180)
+			(uuid "99f1f150-fdf1-4ded-aa81-8edb377557c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 69.85)
+		(size 40 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c381e39a-853b-4cc5-96b1-d43a8dbbe941")
+		(property "Sheetname" "ELRS Receiver"
+			(at 30.48 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "elrs_receiver.kicad_sch"
+			(at 30.48 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ELRS_RX" input
+			(at 30.48 72.39 180)
+			(uuid "8ddd3316-6d54-4f9f-91f2-d894516fcaad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ELRS_TX" input
+			(at 30.48 74.93 180)
+			(uuid "ce91a91b-7832-4c48-9797-3de6f031b0f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 106.68)
+		(size 40 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f7e313ad-53b3-434b-b9a9-dc814318d635")
+		(property "Sheetname" "OSD and VTX"
+			(at 30.48 105.9684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osd_vtx.kicad_sch"
+			(at 30.48 132.6646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OSD_CS" input
+			(at 30.48 109.22 180)
+			(uuid "eee384a2-aa2a-414e-a8a3-ba0258ce49dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2_MISO" input
+			(at 30.48 111.76 180)
+			(uuid "7dfbfceb-994a-4788-a4c9-3c4f095a3861")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2_MOSI" input
+			(at 30.48 114.3 180)
+			(uuid "618a3f28-5d2f-48e6-9162-22379510d8c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2_SCK" input
+			(at 30.48 116.84 180)
+			(uuid "0f968de2-abee-474b-9b9b-7d1982e33454")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VTX_SA" input
+			(at 30.48 119.38 180)
+			(uuid "b4fa2248-2abb-4ed3-ab71-9e7680e9b021")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

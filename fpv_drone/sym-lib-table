@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "AT7456E") (type "EasyEDA (JLCEDA) Pro") (uri "${KIPRJMOD}/libraries/easyeda/AT7456E.elibz") (options "") (descr ""))
+	(lib (name "FD6288T") (type "EasyEDA (JLCEDA) Pro") (uri "${KIPRJMOD}/libraries/easyeda/FD6288T.elibz") (options "") (descr ""))
+	(lib (name "SX1280IMLTRT") (type "EasyEDA (JLCEDA) Pro") (uri "${KIPRJMOD}/libraries/easyeda/SX1280IMLTRT.elibz") (options "") (descr ""))
+)

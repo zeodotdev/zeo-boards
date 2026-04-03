@@ -4479,7 +4479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 41.91 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5573,7 +5573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 102.5652 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7807,7 +7807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 149.86 45.72 0)
 			(hide yes)
 			(show_name no)

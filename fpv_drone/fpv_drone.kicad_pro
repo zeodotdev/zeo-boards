@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.825,
-          "width": 0.25
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,16 +50,10 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.35
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -129,32 +123,32 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.3,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.254,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.15,
-        "min_text_height": 1.0,
-        "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.127,
-        "min_via_diameter": 0.45,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
         {
-          "td_onpthpad": false,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": false,
-          "td_ontrackend": true,
-          "td_onvia": false
+          "td_onsmdpad": true,
+          "td_ontrackend": false,
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -192,9 +186,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -221,12 +213,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -482,16 +469,20 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "zeo1.2_devboard.kicad_pro",
+    "filename": "fpv_drone.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
@@ -504,130 +495,92 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "line_style": 0,
         "name": "Analog",
-        "pcb_color": "rgb(255, 68, 170)",
-        "priority": 5,
-        "schematic_color": "rgb(255, 68, 170)",
-        "track_width": 0.15,
+        "pcb_color": "rgb(255, 68, 255)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 68, 255)",
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
         "line_style": 0,
         "name": "Digital",
-        "pcb_color": "rgb(68, 255, 68)",
-        "priority": 6,
-        "schematic_color": "rgb(68, 255, 68)",
-        "track_width": 0.15,
+        "pcb_color": "rgb(68, 136, 255)",
+        "priority": 3,
+        "schematic_color": "rgb(68, 136, 255)",
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "line_style": 0,
-        "name": "GND",
+        "name": "ESC_Control",
         "pcb_color": "rgb(255, 136, 0)",
-        "priority": 1,
+        "priority": 6,
         "schematic_color": "rgb(255, 136, 0)",
-        "track_width": 0.4,
         "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "line_style": 0,
-        "name": "GPS",
-        "pcb_color": "rgb(255, 255, 68)",
-        "priority": 8,
-        "schematic_color": "rgb(255, 255, 68)",
-        "track_width": 0.4,
+        "name": "ESC_Power",
+        "pcb_color": "rgb(255, 34, 0)",
+        "priority": 7,
+        "schematic_color": "rgb(255, 34, 0)",
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.4,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
         "line_style": 0,
-        "name": "I2C",
-        "pcb_color": "rgb(68, 255, 170)",
-        "priority": 4,
-        "schematic_color": "rgb(68, 255, 170)",
-        "track_width": 0.15,
+        "name": "Ground",
+        "pcb_color": "rgb(68, 255, 68)",
+        "priority": 1,
+        "schematic_color": "rgb(68, 255, 68)",
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "line_style": 0,
         "name": "Power",
         "pcb_color": "rgb(255, 68, 68)",
         "priority": 0,
         "schematic_color": "rgb(255, 68, 68)",
-        "track_width": 0.4,
         "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
         "line_style": 0,
         "name": "SPI",
-        "pcb_color": "rgb(68, 170, 255)",
-        "priority": 3,
-        "schematic_color": "rgb(68, 170, 255)",
-        "track_width": 0.15,
+        "pcb_color": "rgb(68, 255, 255)",
+        "priority": 5,
+        "schematic_color": "rgb(68, 255, 255)",
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.2,
         "line_style": 0,
         "name": "USB_Diff",
         "pcb_color": "rgb(170, 68, 255)",
         "priority": 2,
         "schematic_color": "rgb(170, 68, 255)",
-        "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
         "line_style": 2,
         "name": "Unconnected",
         "pcb_color": "rgb(136, 136, 136)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(136, 136, 136)",
-        "track_width": 0.15,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -639,367 +592,211 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "/+3V3"
+        "pattern": "+3V3"
       },
       {
         "netclass": "Power",
-        "pattern": "/+5V"
+        "pattern": "+5V"
       },
       {
         "netclass": "Power",
-        "pattern": "/+5V_USB"
+        "pattern": "+10V"
       },
       {
-        "netclass": "Power",
-        "pattern": "Net-(U1-VOUT)"
+        "netclass": "USB_Diff",
+        "pattern": "Net-(J5-D+-PadA6)"
       },
       {
-        "netclass": "Power",
-        "pattern": "Net-(U5-VBUS)"
+        "netclass": "USB_Diff",
+        "pattern": "Net-(J5-D--PadA7)"
       },
       {
-        "netclass": "Power",
-        "pattern": "Net-(J2-Pin_1)"
+        "netclass": "USB_Diff",
+        "pattern": "/Flight Controller/USB_DM"
       },
       {
-        "netclass": "GND",
+        "netclass": "USB_Diff",
+        "pattern": "/Flight Controller/USB_DP"
+      },
+      {
+        "netclass": "Ground",
         "pattern": "GND"
       },
       {
-        "netclass": "USB_Diff",
-        "pattern": "/USB_DN"
-      },
-      {
-        "netclass": "USB_Diff",
-        "pattern": "/USB_DP"
-      },
-      {
-        "netclass": "USB_Diff",
-        "pattern": "Net-(U6-D+)"
-      },
-      {
-        "netclass": "USB_Diff",
-        "pattern": "Net-(U6-D-)"
-      },
-      {
-        "netclass": "USB_Diff",
-        "pattern": "unconnected-(J1-D+-PadB6)"
-      },
-      {
-        "netclass": "USB_Diff",
-        "pattern": "unconnected-(J1-D--PadB7)"
+        "netclass": "SPI",
+        "pattern": "/IMU_MISO"
       },
       {
         "netclass": "SPI",
-        "pattern": "/SCLK"
+        "pattern": "/IMU_MOSI"
       },
       {
         "netclass": "SPI",
-        "pattern": "/MOSI_DI"
+        "pattern": "/IMU_SCK"
       },
       {
         "netclass": "SPI",
-        "pattern": "/MISO_DO"
+        "pattern": "/IMU_CS"
       },
       {
         "netclass": "SPI",
-        "pattern": "/CS"
+        "pattern": "/SPI2_MISO"
       },
       {
         "netclass": "SPI",
-        "pattern": "/CS_SD"
+        "pattern": "/SPI2_MOSI"
       },
       {
         "netclass": "SPI",
-        "pattern": "Net-(U7-SPICLK)"
+        "pattern": "/SPI2_SCK"
       },
       {
         "netclass": "SPI",
-        "pattern": "Net-(U7-SPICS0)"
+        "pattern": "/FLASH_CS"
       },
       {
         "netclass": "SPI",
-        "pattern": "Net-(U7-SPID)"
+        "pattern": "/OSD_CS"
       },
       {
         "netclass": "SPI",
-        "pattern": "Net-(U7-SPIQ)"
+        "pattern": "/ELRS Receiver/SX_MISO"
       },
       {
         "netclass": "SPI",
-        "pattern": "Net-(U7-SPIHD)"
+        "pattern": "/ELRS Receiver/SX_MOSI"
       },
       {
         "netclass": "SPI",
-        "pattern": "Net-(U7-SPIWP)"
+        "pattern": "/ELRS Receiver/SX_SCK"
       },
       {
         "netclass": "SPI",
-        "pattern": "Net-(U3-CSB)"
+        "pattern": "/ELRS Receiver/SX_NSS"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/BARO_SCL"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/BARO_SDA"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/ELRS_RX"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/ELRS_TX"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/ESC_RX"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/ESC_TX"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/SWCLK"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/SWDIO"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/BUZZER"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/LED_DATA"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/VTX_SA"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/ELRS Receiver/SX_BUSY"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/ELRS Receiver/SX_DIO1"
+      },
+      {
+        "netclass": "ESC_Control",
+        "pattern": "/MOT1_PWM"
+      },
+      {
+        "netclass": "ESC_Control",
+        "pattern": "/MOT2_PWM"
+      },
+      {
+        "netclass": "ESC_Control",
+        "pattern": "/MOT3_PWM"
+      },
+      {
+        "netclass": "ESC_Control",
+        "pattern": "/MOT4_PWM"
+      },
+      {
+        "netclass": "ESC_Control",
+        "pattern": "/ESC/Motor */HIN*"
+      },
+      {
+        "netclass": "ESC_Control",
+        "pattern": "/ESC/Motor */LIN*"
+      },
+      {
+        "netclass": "ESC_Control",
+        "pattern": "/ESC/Motor */HO*"
+      },
+      {
+        "netclass": "ESC_Control",
+        "pattern": "/ESC/Motor */LO*"
+      },
+      {
+        "netclass": "ESC_Power",
+        "pattern": "/ESC/Motor */VB*"
+      },
+      {
+        "netclass": "ESC_Power",
+        "pattern": "/ESC/Motor */VBAT"
+      },
+      {
+        "netclass": "ESC_Power",
+        "pattern": "/ESC/Motor */VS*"
+      },
+      {
+        "netclass": "ESC_Power",
+        "pattern": "/Power Supply/VBAT"
       },
       {
         "netclass": "Power",
-        "pattern": "/MCU/VDD_SPI"
-      },
-      {
-        "netclass": "I2C",
-        "pattern": "/SCL"
-      },
-      {
-        "netclass": "I2C",
-        "pattern": "/SDA"
+        "pattern": "/Power Supply/SW_*"
       },
       {
         "netclass": "Analog",
-        "pattern": "/MIC_OUT"
+        "pattern": "/Power Supply/FB_*"
       },
       {
         "netclass": "Analog",
-        "pattern": "/PHOTO_C"
+        "pattern": "/VBAT_SENSE"
       },
       {
         "netclass": "Analog",
-        "pattern": "Net-(U4-+)"
+        "pattern": "/OSD and VTX/VID_IN"
       },
       {
         "netclass": "Analog",
-        "pattern": "Net-(U4--)"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "Net-(MK1-+)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/TX_RX"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/RX_TX"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/MCU/~DTR"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/MCU/~RTS"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/BOOT"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/EN"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/GPIO18"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/GPIO19"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/GPIO8"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(U6-~{RST})"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(U7-XTAL_N)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(U7-XTAL_P)"
+        "pattern": "/OSD and VTX/VID_OUT"
       },
       {
         "netclass": "Unconnected",
         "pattern": "unconnected-*"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(J1-CC1)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(J1-CC2)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(Q2-B)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(Q2-C)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(Q3-B)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(Q3-C)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(U2-CE)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(U2-PROG1)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(U2-PROG2)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(U2-PROG3)"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "Net-(U2-THERM)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "Net-(U2-VPCC)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(U2-~{TE})"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "Net-(F1-Pad1)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "Net-(C6-Pad2)"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "Net-(C29-Pad1)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D1-A)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D2-A)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D2-K)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D3-A)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D3-K)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D4-A)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D4-K)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "Net-(U9-VCC_RF)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "Net-(U9-V_BCKP)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "Net-(U9-V_IO)"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/MCU/FLASH_CLK"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/MCU/FLASH_CS"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/MCU/FLASH_D"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/MCU/FLASH_HD"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/MCU/FLASH_Q"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/MCU/FLASH_WP"
-      },
-      {
-        "netclass": "GPS",
-        "pattern": "/Sensors/GPS_RF_IN"
-      },
-      {
-        "netclass": "GPS",
-        "pattern": "Net-(U10-LNA_IN)"
-      },
-      {
-        "netclass": "GPS",
-        "pattern": "Net-(U10-XTAL_N)"
-      },
-      {
-        "netclass": "GPS",
-        "pattern": "Net-(U10-XTAL_P)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/GPIO9"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/GPS_RX"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/GPS_TX"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/LED_R"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/LED_G"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/LED_B"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D5-A)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D6-A)"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(D7-A)"
       }
     ]
   },
@@ -1007,7 +804,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "export/",
+      "plot": "",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -1081,36 +878,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Agent_Wiring",
-          "name": "Agent_Wiring",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -1150,9 +923,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "zeo1.2_devboard.kicad_sch",
-        "name": "zeo1.2_devboard",
-        "uuid": "1d9d5540-a5fb-439a-a7fc-dd6397c3c196"
+        "filename": "fpv_drone.kicad_sch",
+        "name": "Root",
+        "uuid": "bcc951e4-6780-442e-8e93-0576bc471757"
       }
     ],
     "used_designators": "",
@@ -1160,20 +933,52 @@
   },
   "sheets": [
     [
-      "1d9d5540-a5fb-439a-a7fc-dd6397c3c196",
-      "zeo1.2_devboard"
+      "bcc951e4-6780-442e-8e93-0576bc471757",
+      "Root"
     ],
     [
-      "2c52d406-dcf9-43e0-9fef-72b1ad65cf4c",
-      "Sensors"
+      "1fd4f85c-3c72-40d8-a00a-2def0d471526",
+      "Power Supply"
     ],
     [
-      "b033cf98-0594-43ed-b00c-1b683de939c8",
-      "UI"
+      "c381e39a-853b-4cc5-96b1-d43a8dbbe941",
+      "ELRS Receiver"
     ],
     [
-      "0bb7f993-a23f-4f29-8212-e276001f7304",
-      "MCU"
+      "f7e313ad-53b3-434b-b9a9-dc814318d635",
+      "OSD and VTX"
+    ],
+    [
+      "13299648-f1f3-4bd4-8e43-48027c1ac8eb",
+      "Flight Controller"
+    ],
+    [
+      "5777906f-a045-4995-adae-0ee0fbdca4f8",
+      "ESC"
+    ],
+    [
+      "f69a76f6-83b1-407f-95be-48a5500aa7ae",
+      "Motor 1"
+    ],
+    [
+      "0862e1c8-89bd-4fe8-a3bf-44ac890ddb3b",
+      "Motor 3"
+    ],
+    [
+      "a70d2140-d86c-47db-b2bf-b91e09e38e13",
+      "Motor 2"
+    ],
+    [
+      "72283922-9bbb-442c-9e2e-0885de734bc7",
+      "Motor 4"
+    ],
+    [
+      "4bd2c227-d82c-4d3f-839d-25bfc486b7c1",
+      "Peripherals"
+    ],
+    [
+      "60edd4ed-b9f8-48f5-b8ae-33743ac48e9e",
+      "IMU and Sensors"
     ]
   ],
   "text_variables": {},

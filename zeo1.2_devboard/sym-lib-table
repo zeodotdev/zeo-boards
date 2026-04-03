@@ -1,7 +1,7 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "ANT3216LL00R2400A") (type "KiCad") (uri "${KIPRJMOD}/libraries/ANT3216LL00R2400A/ANT3216LL00R2400A.kicad_sym") (options "") (descr ""))
-	(lib (name "MAX-M10S-00B") (type "KiCad") (uri "${KIPRJMOD}/libraries/MAX-M10S-00B/MAX-M10S-00B.kicad_sym") (options "") (descr ""))
-	(lib (name "W3011") (type "KiCad") (uri "${KIPRJMOD}/libraries/W3011/W3011.kicad_sym") (options "") (descr ""))
-	(lib (name "SKTAACE010") (type "KiCad") (uri "${KIPRJMOD}/libraries/SKTAACE010/SKTAACE010.kicad_sym") (options "") (descr ""))
+	(lib (name "ANT3216LL00R2400A") (type "EasyEDA (JLCEDA) Pro") (uri "${KIPRJMOD}/libraries/easyeda/ANT3216LL00R2400A.elibz") (options "") (descr ""))
+	(lib (name "MAX-M10S-00B") (type "EasyEDA (JLCEDA) Pro") (uri "${KIPRJMOD}/libraries/easyeda/MAX-M10S-00B.elibz") (options "") (descr ""))
+	(lib (name "SKTAACE010") (type "EasyEDA (JLCEDA) Pro") (uri "${KIPRJMOD}/libraries/easyeda/SKTAACE010.elibz") (options "") (descr ""))
+	(lib (name "W3011") (type "EasyEDA (JLCEDA) Pro") (uri "${KIPRJMOD}/libraries/easyeda/W3011.elibz") (options "") (descr ""))
 )

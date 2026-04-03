@@ -4015,6 +4015,12 @@
 		(uuid "06573030-ba8a-4378-8155-4f095533c75d")
 	)
 	(junction
+		(at 59.69 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fb0f49c-88e2-48a0-a2af-fc16ec33a800")
+	)
+	(junction
 		(at 38.1 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4033,12 +4039,6 @@
 		(uuid "58d63c1c-2506-4b71-ae5c-664e166d79f1")
 	)
 	(junction
-		(at 53.34 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "778986bf-e041-4136-a039-a62d1cf7fc0d")
-	)
-	(junction
 		(at 114.3 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4055,6 +4055,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b50409cf-e5af-45c5-ba23-1e9123fdbdc0")
+	)
+	(junction
+		(at 53.34 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5bfa3a6-6d15-4d4f-a34f-b2df0d3e26e8")
 	)
 	(junction
 		(at 212.09 143.51)
@@ -4558,7 +4564,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 29.21) (xy 66.04 29.21)
+			(xy 53.34 29.21) (xy 59.69 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4885,6 +4891,16 @@
 			(type default)
 		)
 		(uuid "c5df48c9-0ba8-4b22-93ba-c39cf847c2ca")
+	)
+	(wire
+		(pts
+			(xy 59.69 29.21) (xy 66.04 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7644e49-a9ff-4674-b9a5-519db041f040")
 	)
 	(wire
 		(pts
@@ -7489,7 +7505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 46.6852 29.21 0)
 			(hide yes)
 			(show_name no)
