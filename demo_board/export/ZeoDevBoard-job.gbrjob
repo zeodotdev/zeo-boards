@@ -5,27 +5,27 @@
       "Application": "Pcbnew",
       "Version": "10.0.0-rc1"
     },
-    "CreationDate": "2026-04-04T14:58:21-07:00"
+    "CreationDate": "2026-04-04T15:41:58-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "remote",
-      "GUID": "72656d6f-7465-42e6-9b69-6361645f7063",
+      "Name": "ZeoDevBoard",
+      "GUID": "5a656f44-6576-4426-9f61-72642e6b6963",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 45.1,
-      "Y": 100.1
+      "X": 20.12,
+      "Y": 31.05
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
-    "Finish": "None"
+    "Finish": "User defined"
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
+      "PadToPad": 0.127,
+      "PadToTrack": 0.127,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.2,
       "TrackToRegion": 0.2,
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "remote-F_Cu.gbr",
+      "Path": "ZeoDevBoard-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "remote-B_Cu.gbr",
+      "Path": "ZeoDevBoard-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "remote-F_Paste.gbr",
+      "Path": "ZeoDevBoard-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "remote-B_Paste.gbr",
+      "Path": "ZeoDevBoard-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "remote-F_Silkscreen.gbr",
+      "Path": "ZeoDevBoard-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "remote-B_Silkscreen.gbr",
+      "Path": "ZeoDevBoard-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "remote-F_Mask.gbr",
+      "Path": "ZeoDevBoard-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "remote-B_Mask.gbr",
+      "Path": "ZeoDevBoard-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "remote-Edge_Cuts.gbr",
+      "Path": "ZeoDevBoard-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -90,7 +90,7 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "Black",
+      "Color": "Red",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
@@ -113,7 +113,7 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "Black",
+      "Color": "Red",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },

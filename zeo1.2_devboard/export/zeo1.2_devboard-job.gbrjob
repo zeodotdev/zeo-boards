@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.0-rc1"
     },
-    "CreationDate": "2026-03-17T21:02:28-07:00"
+    "CreationDate": "2026-04-05T00:15:38-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -18,14 +18,15 @@
       "Y": 25.45
     },
     "LayerNumber": 4,
-    "BoardThickness": 1.6,
-    "Finish": "None"
+    "BoardThickness": 1.565,
+    "Finish": "None",
+    "ImpedanceControlled": true
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.15,
-      "PadToTrack": 0.15,
+      "PadToPad": 0.09,
+      "PadToTrack": 0.09,
       "TrackToTrack": 0.15,
       "MinLineWidth": 0.15,
       "TrackToRegion": 0.15,
@@ -36,9 +37,9 @@
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
       "TrackToTrack": 0.15,
-      "MinLineWidth": 0.15,
-      "TrackToRegion": 0.15,
-      "RegionToRegion": 0.15
+      "MinLineWidth": 0.127,
+      "TrackToRegion": 0.3,
+      "RegionToRegion": 0.3
     }
   ],
   "FilesAttributes": [
@@ -109,7 +110,7 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "Red",
+      "Color": "Black",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
@@ -120,32 +121,41 @@
     },
     {
       "Type": "Dielectric",
+      "Color": "R109G116B75",
       "Thickness": 0.1,
       "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
       "Name": "F.Cu/In1.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0175,
       "Name": "In1.Cu"
     },
     {
       "Type": "Dielectric",
+      "Color": "R109G116B75",
       "Thickness": 1.24,
       "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0175,
       "Name": "In2.Cu"
     },
     {
       "Type": "Dielectric",
+      "Color": "R109G116B75",
       "Thickness": 0.1,
       "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
       "Name": "In2.Cu/B.Cu",
       "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
     },
@@ -156,7 +166,7 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "Red",
+      "Color": "Black",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
