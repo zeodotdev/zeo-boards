@@ -503,12 +503,96 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.15,
+        "line_style": 0,
+        "name": "Analog",
+        "pcb_color": "rgb(255, 170, 0)",
+        "priority": 5,
+        "schematic_color": "rgb(255, 170, 0)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "line_style": 0,
+        "name": "Digital",
+        "pcb_color": "rgb(0, 204, 255)",
+        "priority": 6,
+        "schematic_color": "rgb(0, 204, 255)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "line_style": 0,
+        "name": "Ground",
+        "pcb_color": "rgb(68, 255, 68)",
+        "priority": 2,
+        "schematic_color": "rgb(68, 255, 68)",
+        "track_width": 0.4,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "line_style": 0,
+        "name": "High_Speed",
+        "pcb_color": "rgb(68, 170, 255)",
+        "priority": 4,
+        "schematic_color": "rgb(68, 170, 255)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "line_style": 0,
+        "name": "Power",
+        "pcb_color": "rgb(255, 68, 68)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 68, 68)",
+        "track_width": 0.148,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "clearance": 0.2,
         "name": "RF_WiFi",
-        "pcb_color": "rgb(255, 0, 0)",
+        "pcb_color": "rgb(251, 0, 208)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "line_style": 0,
+        "name": "USB_Diff",
+        "pcb_color": "rgb(170, 68, 255)",
+        "priority": 3,
+        "schematic_color": "rgb(170, 68, 255)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "line_style": 2,
+        "name": "Unconnected",
+        "pcb_color": "rgb(136, 136, 136)",
+        "priority": 7,
+        "schematic_color": "rgb(136, 136, 136)",
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -523,6 +607,206 @@
       {
         "netclass": "RF_WiFi",
         "pattern": "Net-(C29-Pad1)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/+5V_USB"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VBAT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/MCU/VDD_SPI"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(U9-VCC_RF)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(U9-V_BCKP)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(U2-VPCC)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(F1-Pad1)"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "USB_Diff",
+        "pattern": "/USB_DN"
+      },
+      {
+        "netclass": "USB_Diff",
+        "pattern": "/USB_DP"
+      },
+      {
+        "netclass": "USB_Diff",
+        "pattern": "Net-(U6-D+)"
+      },
+      {
+        "netclass": "USB_Diff",
+        "pattern": "Net-(U6-D-)"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/MCU/FLASH_CLK"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/MCU/FLASH_CS"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/MCU/FLASH_D"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/MCU/FLASH_HD"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/MCU/FLASH_Q"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/MCU/FLASH_WP"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/SCLK"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/MISO_DO"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/MOSI_DI"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/CS"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/CS_SD"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/I2S_SCK"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/I2S_SD"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/I2S_WS"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/SCL"
+      },
+      {
+        "netclass": "High_Speed",
+        "pattern": "/SDA"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/Sensors/GPS_RF_IN"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "Net-(U10-LNA_IN)"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "Net-(U10-XTAL_N)"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "Net-(U10-XTAL_P)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(U6-~{RST})"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/GPS_RX"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/GPS_TX"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/RX_TX"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/TX_RX"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/MCU/~DTR"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/MCU/~RTS"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/BOOT"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/EN"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/GPIO18"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/GPIO19"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/GPIO8"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/LED_R"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/LED_G"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/LED_B"
+      },
+      {
+        "netclass": "Unconnected",
+        "pattern": "unconnected-*"
       }
     ]
   },

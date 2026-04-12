@@ -5,6 +5,16 @@
 	(uuid "bcc951e4-6780-442e-8e93-0576bc471757")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 147.32 130.81) (xy 152.4 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131f77e1-6964-4489-8120-4c5c1e5ce759")
+	)
 	(label "SPI2_MOSI"
 		(at 147.32 127 180)
 		(effects
@@ -159,6 +169,17 @@
 		)
 		(uuid "3021e637-f376-491e-852d-015c8a562b6d")
 	)
+	(label "IMU_ACC_CS"
+		(at 88.9 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "374de05b-2ebf-44ba-a145-f3b05a438298")
+	)
 	(label "IMU_CS"
 		(at 88.9 78.74 180)
 		(effects
@@ -279,6 +300,17 @@
 			(justify right bottom)
 		)
 		(uuid "5e6bfcc0-8ff5-4818-8e1b-d1d14976a5be")
+	)
+	(label "IMU_ACC_CS"
+		(at 147.32 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "63dc4452-1846-4a7e-85fc-a8003b1eec20")
 	)
 	(label "ELRS_TX"
 		(at 88.9 43.18 180)
@@ -898,6 +930,16 @@
 				(justify left)
 			)
 		)
+		(pin "IMU_ACC_CS" input
+			(at 88.9 96.52 180)
+			(uuid "ea1309ba-4cf7-49b6-851c-54d05983f453")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(sheet
 		(at 30.48 30.48)
@@ -1277,6 +1319,16 @@
 		(pin "SPI2_SCK" input
 			(at 147.32 129.54 180)
 			(uuid "99f1f150-fdf1-4ded-aa81-8edb377557c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_ACC_CS" input
+			(at 147.32 130.81 180)
+			(uuid "ae693148-6857-45dd-9020-2a2fdacbdf2e")
 			(effects
 				(font
 					(size 1.27 1.27)

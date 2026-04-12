@@ -5,6 +5,308 @@
 	(uuid "c92c56ef-e11d-46f8-a96c-bf9a716b3fa2")
 	(paper "A4")
 	(lib_symbols
+		(symbol "AON7418:AON7418"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AON7418:PDFN-8_L3.3-W3.3-P0.65-BL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190807/C74384_449E04F421CDCCDE17205D9B23C0216A.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Type:1 N-Channel Drain Source Voltage (Vdss): Continuous Drain Current (Id): Drain Source On Resistance (RDS(on)@Vgs,Id):2.8mΩ@4.5V,20A Power Dissipation (Pd): Gate Threshold Voltage (Vgs(th)@Id):2.2V@250uA Total Gate Charge (Qg@Vgs):65nC@10V Input Capaci"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "AON7418"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "AOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C74384"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "1个N沟道 耐压:30V 电流:50A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AON7418_1_0"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6.604 6.35)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -1754,307 +2056,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_NMOS_GDS"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_GDS"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, gate/drain/source"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_NMOS_GDS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_GDS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -2194,6 +2195,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+BATT"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2311,10 +2451,160 @@
 		)
 	)
 	(junction
+		(at 218.44 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c511bef-be77-42e9-b631-2ce000274f11")
+	)
+	(junction
+		(at 262.89 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e20655b-9f3d-4b52-925b-937195f42366")
+	)
+	(junction
+		(at 236.22 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "114088a0-bba8-4df9-96c2-30a660cc362a")
+	)
+	(junction
+		(at 262.89 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16562bc3-4c34-4c6d-a27f-41906e0e9df0")
+	)
+	(junction
 		(at 71.12 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e0430c0-376c-46cf-9eb0-827a3c4404f1")
+	)
+	(junction
+		(at 236.22 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35b4fde1-3364-4a37-9a30-947557f5626b")
+	)
+	(junction
+		(at 191.77 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b51eb37-9c99-455c-ab2b-4a4a1d98dcc9")
+	)
+	(junction
+		(at 209.55 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48d35a89-b960-4653-b872-780df733d7c4")
+	)
+	(junction
+		(at 262.89 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56306345-1a69-4ac9-b3b6-b48f87654446")
+	)
+	(junction
+		(at 236.22 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58d81abb-26c0-4f8e-b3df-60ebaf678173")
+	)
+	(junction
+		(at 125.73 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f5f3ecd-3eba-4415-bee7-610e4dd9a1db")
+	)
+	(junction
+		(at 262.89 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6660aee4-17c2-4983-9193-8d7fc92a41e9")
+	)
+	(junction
+		(at 262.89 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a7e3aa1-ca6d-43a3-b833-306a0c09ace8")
+	)
+	(junction
+		(at 209.55 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c8ad108-38b6-4d35-affd-6a60468da1f8")
+	)
+	(junction
+		(at 218.44 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d646fff-6a0d-4a4b-8f83-b89a30a738f0")
+	)
+	(junction
+		(at 245.11 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8153527e-e709-4065-917d-bea9d9c5706f")
+	)
+	(junction
+		(at 245.11 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "841ea89f-317a-4936-9c89-e9f81c93cbb5")
+	)
+	(junction
+		(at 262.89 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87b367db-1364-488e-a4c2-e9197f17e0a7")
+	)
+	(junction
+		(at 209.55 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1b7c7cd-c0f1-4db7-8325-f0be6f675eb1")
+	)
+	(junction
+		(at 236.22 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5422827-ca28-436a-8fcc-b988c8489008")
+	)
+	(junction
+		(at 236.22 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b46ca390-2409-4690-987c-693341780272")
+	)
+	(junction
+		(at 209.55 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c558eca3-8640-4c9f-82a7-7a1d1bb94791")
+	)
+	(junction
+		(at 191.77 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d147cdb6-959a-44fc-bb06-4c53588b8572")
+	)
+	(junction
+		(at 209.55 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d640930a-d767-457c-9e06-17d52862cd95")
+	)
+	(junction
+		(at 209.55 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed4a5f79-463e-43aa-9160-79af6e6245d7")
+	)
+	(junction
+		(at 236.22 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff85512c-c5bc-4e2a-bff6-3bc25621c27c")
 	)
 	(no_connect
 		(at 45.72 92.71)
@@ -2406,7 +2696,67 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 115.57) (xy 129.54 115.57)
+			(xy 245.11 80.01) (xy 245.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1202c9b0-ab28-4f76-ad8f-cd6954f579c7")
+	)
+	(wire
+		(pts
+			(xy 191.77 77.47) (xy 191.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1234bc31-19aa-40e8-9ed3-84c169a94ed4")
+	)
+	(wire
+		(pts
+			(xy 125.73 115.57) (xy 129.54 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17173b99-5acf-49d9-8f45-3d1b5adcc848")
+	)
+	(wire
+		(pts
+			(xy 245.11 99.06) (xy 245.11 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed1563e-c04c-4c0b-b71a-774f10b372cc")
+	)
+	(wire
+		(pts
+			(xy 209.55 96.52) (xy 209.55 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20624424-ac74-43df-a96d-0034ee1e7af6")
+	)
+	(wire
+		(pts
+			(xy 209.55 93.98) (xy 209.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d801247-5e9b-48b3-ae5e-42570db42c24")
+	)
+	(wire
+		(pts
+			(xy 124.46 115.57) (xy 125.73 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2416,23 +2766,23 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 96.52) (xy 217.17 101.6)
+			(xy 236.22 101.6) (xy 236.22 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35557594-cc74-4b3e-a103-3e1e3e0fcbf0")
+		(uuid "33023765-1c04-4edc-8aea-fc00211b4dd1")
 	)
 	(wire
 		(pts
-			(xy 193.04 96.52) (xy 193.04 101.6)
+			(xy 262.89 93.98) (xy 262.89 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b09d1b6-2381-4c5d-bf46-8fc7726d1392")
+		(uuid "34bb9122-26e3-42e9-b601-928e60cf840a")
 	)
 	(wire
 		(pts
@@ -2446,6 +2796,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 93.98) (xy 236.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b94e4db-96b6-402b-8aa0-5db6b5baec1a")
+	)
+	(wire
+		(pts
 			(xy 173.99 118.11) (xy 173.99 120.65)
 		)
 		(stroke
@@ -2453,6 +2813,16 @@
 			(type default)
 		)
 		(uuid "3c307fb2-d42a-4846-a485-cd67fa064c4d")
+	)
+	(wire
+		(pts
+			(xy 236.22 96.52) (xy 236.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49667b6a-2620-442e-99f2-29cf9362d73e")
 	)
 	(wire
 		(pts
@@ -2466,6 +2836,86 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 77.47) (xy 236.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532cfac5-125e-402e-a9ec-6c160c5e2488")
+	)
+	(wire
+		(pts
+			(xy 262.89 96.52) (xy 262.89 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56969939-0dfe-4f10-88e9-3ac66b540dcd")
+	)
+	(wire
+		(pts
+			(xy 245.11 77.47) (xy 245.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b800a7-0964-4c31-b4ab-c08e5785e7ee")
+	)
+	(wire
+		(pts
+			(xy 262.89 101.6) (xy 262.89 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d74593-34ab-40e3-b890-317db01bd250")
+	)
+	(wire
+		(pts
+			(xy 218.44 77.47) (xy 218.44 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a875c8-a414-4093-b3a5-65a4e7bf1c71")
+	)
+	(wire
+		(pts
+			(xy 191.77 96.52) (xy 191.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71fe7598-1d4e-47b3-ab4d-83262e37c11c")
+	)
+	(wire
+		(pts
+			(xy 209.55 101.6) (xy 209.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78765c19-c3c2-40ac-a9ad-72be1f1aa3b6")
+	)
+	(wire
+		(pts
+			(xy 209.55 74.93) (xy 209.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1ba633-f62e-439d-99c1-2314b236016c")
+	)
+	(wire
+		(pts
 			(xy 71.12 62.23) (xy 71.12 63.5)
 		)
 		(stroke
@@ -2476,33 +2926,133 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 96.52) (xy 241.3 101.6)
+			(xy 218.44 96.52) (xy 218.44 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83afcc61-72c5-4b8f-8c03-220bec7e17f3")
+		(uuid "84aaff69-3578-40aa-910a-6beae1055a1f")
 	)
 	(wire
 		(pts
-			(xy 241.3 82.55) (xy 241.3 86.36)
+			(xy 236.22 74.93) (xy 236.22 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88a40b5c-b136-4815-9584-0996c1e40ad2")
+		(uuid "85b35e34-a155-486b-8630-1e0ebbdba05b")
 	)
 	(wire
 		(pts
-			(xy 217.17 82.55) (xy 217.17 86.36)
+			(xy 218.44 99.06) (xy 218.44 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "987a80f7-53b1-44d9-b657-e0e42fa36742")
+		(uuid "8b78bc27-876e-494d-a248-5cd7962329b0")
+	)
+	(wire
+		(pts
+			(xy 262.89 77.47) (xy 262.89 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f05e321-3bfe-416c-b6f0-ce82c269e9dc")
+	)
+	(wire
+		(pts
+			(xy 209.55 77.47) (xy 209.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f24c84c-6fe7-45e0-95af-739df18feb6b")
+	)
+	(wire
+		(pts
+			(xy 236.22 99.06) (xy 236.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b0d6fe-9e20-4443-a02b-c5587b9e2c57")
+	)
+	(wire
+		(pts
+			(xy 209.55 80.01) (xy 209.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9845bf27-ccb3-4e3e-936a-8174128accb3")
+	)
+	(wire
+		(pts
+			(xy 209.55 82.55) (xy 209.55 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c54b1b3-f2a2-49a2-b4e2-7b3e53ff91d5")
+	)
+	(wire
+		(pts
+			(xy 262.89 74.93) (xy 262.89 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d04fbd-455a-427d-aa61-f7670544c180")
+	)
+	(wire
+		(pts
+			(xy 262.89 82.55) (xy 262.89 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae715ce-ddba-45ba-82fc-27ce7b1db435")
+	)
+	(wire
+		(pts
+			(xy 191.77 80.01) (xy 191.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00d0f09-a159-43d8-a4a5-8518bfa2b7ca")
+	)
+	(wire
+		(pts
+			(xy 236.22 82.55) (xy 236.22 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3185aef-63d9-416b-828a-f5030de86616")
+	)
+	(wire
+		(pts
+			(xy 125.73 115.57) (xy 125.73 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b1f94d-056b-4c02-b265-f3d01de7cf14")
 	)
 	(wire
 		(pts
@@ -2526,13 +3076,33 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 82.55) (xy 193.04 86.36)
+			(xy 236.22 80.01) (xy 236.22 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf13ac43-1394-4bf4-ba75-8bd91a865543")
+		(uuid "cf34feab-3aa1-4c79-b68c-7c82a507b2e3")
+	)
+	(wire
+		(pts
+			(xy 262.89 80.01) (xy 262.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36c22e3-f43e-4a79-a7ff-bf2ef85d7c3a")
+	)
+	(wire
+		(pts
+			(xy 209.55 99.06) (xy 209.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d578a4de-113e-40b3-847b-2275b67c9157")
 	)
 	(wire
 		(pts
@@ -2554,16 +3124,56 @@
 		)
 		(uuid "e287a0d4-99c3-4fea-b756-89242a3178f7")
 	)
-	(label "VS1"
-		(at 193.04 82.55 90)
+	(wire
+		(pts
+			(xy 245.11 96.52) (xy 245.11 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67f2458-ddf3-4ce6-b82a-d2a3e060619f")
+	)
+	(wire
+		(pts
+			(xy 218.44 80.01) (xy 218.44 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ececa809-590d-4dcf-bcc8-3e1a625b12bb")
+	)
+	(wire
+		(pts
+			(xy 191.77 99.06) (xy 191.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a200db-384f-4b7b-8807-b507e3fff559")
+	)
+	(wire
+		(pts
+			(xy 262.89 99.06) (xy 262.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6fe02d1-ec00-47c8-9245-19598ad4e96f")
+	)
+	(label "VBAT"
+		(at 236.22 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(line_spacing 0)
 			)
-			(justify left top)
+			(justify left bottom)
 		)
-		(uuid "00d90277-e5e1-4647-9231-21f1576643a8")
+		(uuid "0722e930-3ee9-4c40-9da7-9f0efee6259a")
 	)
 	(label "HIN3"
 		(at 96.52 85.09 0)
@@ -2576,27 +3186,16 @@
 		)
 		(uuid "0747ddfe-8673-4ebe-9fbc-fdca4aab4ba1")
 	)
-	(label "VBAT"
-		(at 217.17 72.39 90)
+	(label "VS1"
+		(at 251.46 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(line_spacing 0)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "0b4a07c7-63cc-463b-8de7-42facbb98d2d")
-	)
-	(label "VB1"
-		(at 200.66 116.84 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(line_spacing 0)
-			)
-			(justify left bottom)
-		)
-		(uuid "1022629b-e651-4b39-8dbf-371af8a5f77c")
+		(uuid "0de59c74-8750-4e63-9c7c-df92c0e5f1dd")
 	)
 	(label "VB1"
 		(at 170.18 105.41 0)
@@ -2609,8 +3208,8 @@
 		)
 		(uuid "1df97522-2552-4d82-998f-50a2c40d05dc")
 	)
-	(label "VS2"
-		(at 260.35 101.6 180)
+	(label "LO3"
+		(at 245.11 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2618,10 +3217,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "206966cc-0de7-4600-a229-8b9d203a072c")
+		(uuid "26c79045-7007-489a-b32b-20f6b60046a1")
 	)
 	(label "VBAT"
-		(at 127 115.57 90)
+		(at 128.27 115.57 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2630,6 +3229,17 @@
 			(justify left top)
 		)
 		(uuid "2b28f0ad-a7d2-4384-b56a-960978c56a8c")
+	)
+	(label "LO1"
+		(at 191.77 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bc7eacb-fdc1-44d1-b0fd-b2344724b649")
 	)
 	(label "HIN3"
 		(at 129.54 80.01 180)
@@ -2653,6 +3263,28 @@
 		)
 		(uuid "3561bf46-5575-4b9f-8cfe-ae4b3d87e60d")
 	)
+	(label "LO2"
+		(at 218.44 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "3650d3ef-7b2e-4a04-a57b-fe61ef78b0bf")
+	)
+	(label "VS2"
+		(at 236.22 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify left bottom)
+		)
+		(uuid "376d2814-8b59-4783-b8f5-abd4c5fe3376")
+	)
 	(label "LIN1"
 		(at 96.52 77.47 0)
 		(effects
@@ -2663,6 +3295,17 @@
 			(justify left bottom)
 		)
 		(uuid "38425b48-caa6-4939-b976-3ffd676815ff")
+	)
+	(label "VB1"
+		(at 201.93 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d6a0ea5-3e25-47d7-a5e6-647db66da369")
 	)
 	(label "LIN3"
 		(at 129.54 82.55 180)
@@ -2675,16 +3318,16 @@
 		)
 		(uuid "3f02f4b7-d7a8-4648-928b-e64c80f5368e")
 	)
-	(label "LO2"
-		(at 209.55 91.44 180)
+	(label "VS3"
+		(at 262.89 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(line_spacing 0)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "4b87a5af-5e1a-4926-bfe8-acef9a94228b")
+		(uuid "4190f8bb-2642-4a4a-af87-17071fb56cb9")
 	)
 	(label "LIN2"
 		(at 96.52 82.55 0)
@@ -2708,17 +3351,6 @@
 		)
 		(uuid "51afc883-dc66-4fd0-b666-c528a8d080c9")
 	)
-	(label "VS1"
-		(at 260.35 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(line_spacing 0)
-			)
-			(justify right bottom)
-		)
-		(uuid "57768c79-4cb4-46f2-ab9b-48a5d3237a98")
-	)
 	(label "VS2"
 		(at 170.18 97.79 0)
 		(effects
@@ -2741,8 +3373,8 @@
 		)
 		(uuid "5b02b8e8-d4c1-44b9-aa4c-45d7c1ee5772")
 	)
-	(label "LO3"
-		(at 233.68 91.44 180)
+	(label "VS2"
+		(at 251.46 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2750,7 +3382,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "61d4b906-3812-41fe-ad5b-fe7c5060293a")
+		(uuid "5c9611f9-06df-45b0-8147-45d9a10b87a1")
+	)
+	(label "VS3"
+		(at 232.41 121.92 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right top)
+		)
+		(uuid "5cec0d99-85a0-4399-9f31-df7ef353db67")
 	)
 	(label "HO3"
 		(at 170.18 82.55 0)
@@ -2774,6 +3417,28 @@
 		)
 		(uuid "67c2d340-b415-455b-8809-c7afbf241b87")
 	)
+	(label "HO1"
+		(at 191.77 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c6ea0ef-165e-4625-b9eb-142c2eea5fdd")
+	)
+	(label "GND"
+		(at 191.77 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "7096539a-87e0-4b0c-9cc5-3dd1cfc48b61")
+	)
 	(label "LIN3"
 		(at 96.52 87.63 0)
 		(effects
@@ -2784,17 +3449,6 @@
 			(justify left bottom)
 		)
 		(uuid "711d31e4-d11a-4e38-adb8-69f94fda1a2d")
-	)
-	(label "VS2"
-		(at 215.9 124.46 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(line_spacing 0)
-			)
-			(justify left top)
-		)
-		(uuid "724b7b12-2aa2-4dc2-b948-356738c16793")
 	)
 	(label "HO2"
 		(at 170.18 95.25 0)
@@ -2807,6 +3461,17 @@
 		)
 		(uuid "7832799c-b2c5-4769-add5-f635efe5ee67")
 	)
+	(label "VS2"
+		(at 218.44 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e592903-aeda-4ea4-acbf-81dfc5bc5855")
+	)
 	(label "LIN1"
 		(at 129.54 107.95 180)
 		(effects
@@ -2818,30 +3483,8 @@
 		)
 		(uuid "8687126d-a220-414f-a2e2-f726c216d0f7")
 	)
-	(label "VB3"
-		(at 231.14 116.84 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(line_spacing 0)
-			)
-			(justify left bottom)
-		)
-		(uuid "877619cc-6392-400a-8f0d-7481ca5f987e")
-	)
-	(label "VS2"
-		(at 217.17 82.55 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(line_spacing 0)
-			)
-			(justify left top)
-		)
-		(uuid "8f69a202-f325-455e-9168-7c7317a996c6")
-	)
-	(label "HO1"
-		(at 185.42 77.47 180)
+	(label "GND"
+		(at 245.11 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2849,21 +3492,21 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "adfd5373-cdc5-4714-97c5-0b4c59c5d2ee")
+		(uuid "88b4445a-59dc-43c7-9f8c-cbf3ffb914a5")
 	)
-	(label "VS3"
-		(at 231.14 124.46 90)
+	(label "VS1"
+		(at 201.93 121.92 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(line_spacing 0)
 			)
-			(justify left top)
+			(justify right top)
 		)
-		(uuid "b49c96da-6bdf-4213-beff-3edfe7733094")
+		(uuid "a4e71e4e-3a9a-4415-88c1-42a6cbd4bda8")
 	)
 	(label "HO3"
-		(at 233.68 77.47 180)
+		(at 245.11 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2871,7 +3514,29 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b71b50bb-4c61-4e5e-8d36-476e12a62058")
+		(uuid "a5943b44-1069-4962-a8cb-e5fa963b8f6e")
+	)
+	(label "VS1"
+		(at 191.77 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9d269a4-1644-449d-a802-0aff27fe4620")
+	)
+	(label "VS2"
+		(at 217.17 121.92 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right top)
+		)
+		(uuid "ac02f59b-77d8-46fc-90ef-c8091f9f2ecd")
 	)
 	(label "VB3"
 		(at 170.18 80.01 0)
@@ -2884,16 +3549,16 @@
 		)
 		(uuid "ba150f1f-d90a-4513-aeff-ae88fb3494ee")
 	)
-	(label "VS1"
-		(at 200.66 124.46 90)
+	(label "VBAT"
+		(at 262.89 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(line_spacing 0)
 			)
-			(justify left top)
+			(justify left bottom)
 		)
-		(uuid "bce95545-6125-464c-8474-6266ed57e18c")
+		(uuid "bb48393f-57ef-4af7-835f-c841c647ef60")
 	)
 	(label "VB2"
 		(at 170.18 92.71 0)
@@ -2905,17 +3570,6 @@
 			(justify left bottom)
 		)
 		(uuid "bf2864d0-de61-4eed-9ab5-660c8b259347")
-	)
-	(label "VBAT"
-		(at 193.04 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(line_spacing 0)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf6a37c3-a25f-4e51-b68f-e13ed137fc63")
 	)
 	(label "HIN1"
 		(at 96.52 74.93 0)
@@ -2950,8 +3604,8 @@
 		)
 		(uuid "c550ddcb-6c41-44c4-a327-26f7346d3d05")
 	)
-	(label "VBAT"
-		(at 241.3 72.39 90)
+	(label "VS1"
+		(at 209.55 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2959,7 +3613,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cdb15a20-adc9-4f51-aa8d-6881272d935c")
+		(uuid "cb1387b7-9576-4536-87dd-447e9b7e6959")
 	)
 	(label "VS3"
 		(at 170.18 85.09 0)
@@ -2972,17 +3626,6 @@
 		)
 		(uuid "cf43f0c0-e659-426c-b795-6e0afeda8a45")
 	)
-	(label "HO2"
-		(at 209.55 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(line_spacing 0)
-			)
-			(justify right bottom)
-		)
-		(uuid "cfdaa6a6-d3c5-4d3c-854a-2b87cb338932")
-	)
 	(label "VS1"
 		(at 170.18 110.49 0)
 		(effects
@@ -2994,8 +3637,8 @@
 		)
 		(uuid "d0e89424-61bb-4944-8c74-3246f07affaf")
 	)
-	(label "VS3"
-		(at 260.35 104.14 180)
+	(label "GND"
+		(at 218.44 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3003,7 +3646,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d15e3bd9-d0fe-4e36-aef4-68b7ba57a5ce")
+		(uuid "d54bbb59-621c-441b-894b-bf8c31b91bd6")
 	)
 	(label "LIN2"
 		(at 129.54 95.25 180)
@@ -3016,8 +3659,19 @@
 		)
 		(uuid "d66c1b68-8280-4a06-8b7b-b3d93857b70c")
 	)
+	(label "VS3"
+		(at 245.11 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7a5ceb2-966d-4083-962e-7935272c0805")
+	)
 	(label "VB2"
-		(at 215.9 116.84 90)
+		(at 217.17 114.3 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3025,7 +3679,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "dc9b927e-b8ec-4e71-adaa-f6cd75fb6152")
+		(uuid "da7da22b-76de-4027-b0e6-31bece899f28")
+	)
+	(label "VB3"
+		(at 232.41 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcceca80-be0f-4288-a45f-bf3bbdb28289")
 	)
 	(label "LO1"
 		(at 170.18 113.03 0)
@@ -3039,18 +3704,7 @@
 		(uuid "df0c5fb2-d419-4c56-8f0f-b93e26be5dc7")
 	)
 	(label "VS3"
-		(at 241.3 82.55 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(line_spacing 0)
-			)
-			(justify left top)
-		)
-		(uuid "eff0117a-7453-43fd-b783-3e01bad51f47")
-	)
-	(label "LO1"
-		(at 185.42 91.44 180)
+		(at 251.46 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3058,7 +3712,29 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f0d9e56e-ab9f-48c4-a389-2178412e176c")
+		(uuid "ebe7b9fd-9dab-4cce-92f8-75e58e4def81")
+	)
+	(label "VBAT"
+		(at 209.55 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed549850-6a07-4bde-a0d5-d50aa0b4011d")
+	)
+	(label "HO2"
+		(at 218.44 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "fada7519-d839-409c-87c1-2f368e79c3ae")
 	)
 	(hierarchical_label "MOT4_PWM"
 		(shape input)
@@ -3086,7 +3762,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 231.14 120.65 0)
+		(at 217.17 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3094,9 +3770,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "026787d7-e18f-4448-b7d2-efb29872d88c")
-		(property "Reference" "C46"
-			(at 231.775 118.11 0)
+		(uuid "05325879-aae2-4877-be4f-4eb29fda130b")
+		(property "Reference" "C51"
+			(at 217.805 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3107,7 +3783,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 231.775 123.19 0)
+			(at 217.805 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3118,7 +3794,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 232.1052 124.46 0)
+			(at 218.1352 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3129,7 +3805,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 120.65 0)
+			(at 217.17 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3140,7 +3816,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 231.14 120.65 0)
+			(at 217.17 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3151,15 +3827,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b953b43d-d619-42de-9627-c55b83befbbc")
+			(uuid "57e8e2ff-679d-43dc-8d43-02ab8da82ddd")
 		)
 		(pin "2"
-			(uuid "1c42a8cd-ffd2-489b-a4b9-d30953deb324")
+			(uuid "108a890c-2208-417a-9ac1-8ceaf5ed7726")
 		)
 		(instances
-			(project ""
+			(project "fpv_drone"
 				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "C46")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -3176,7 +3852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ab1f363-fbfe-4c80-a909-d25576b5951c")
-		(property "Reference" "C42"
+		(property "Reference" "C48"
 			(at 71.755 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3240,7 +3916,7 @@
 		(instances
 			(project ""
 				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "C42")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -3419,8 +4095,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 215.9 120.65 0)
+		(lib_id "power:+BATT")
+		(at 125.73 120.65 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3428,31 +4104,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1381e19d-1e2b-4c00-989c-79a57cba417e")
-		(property "Reference" "C45"
-			(at 216.535 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 216.535 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 216.8652 124.46 0)
+		(uuid "164505f3-4aab-4f83-8c47-170b549a176f")
+		(property "Reference" "#PWR0112"
+			(at 120.65 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3462,67 +4116,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 215.9 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 215.9 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "107bc324-ccc7-4742-9a20-02b778d2fc60")
-		)
-		(pin "1"
-			(uuid "641e8d5d-dc43-413c-8623-3bdca9dc7d94")
-		)
-		(instances
-			(project ""
-				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 217.17 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ab525f3-4354-4827-86bb-3ccac99eec52")
-		(property "Reference" "#PWR94"
-			(at 217.17 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 105.41 0)
+		(property "Value" "+BATT"
+			(at 125.73 124.714 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3532,7 +4127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 101.6 0)
+			(at 120.65 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3543,7 +4138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 101.6 0)
+			(at 120.65 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3553,8 +4148,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 101.6 0)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 120.65 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3565,12 +4160,234 @@
 			)
 		)
 		(pin "1"
-			(uuid "83086a88-e9d2-406c-b21f-1c4a168b018f")
+			(uuid "7bf26cdf-a002-4f7a-b930-df6ac80ffb3d")
 		)
 		(instances
-			(project ""
+			(project "fpv_drone"
 				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "#PWR94")
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AON7418:AON7418")
+		(at 228.6 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1fae1cdf-2405-408b-923f-722c3c9a7664")
+		(property "Reference" "Q21"
+			(at 228.6 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AON7418"
+			(at 225.298 71.374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AON7418:PDFN-8_L3.3-W3.3-P0.65-BL"
+			(at 228.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190807/C74384_449E04F421CDCCDE17205D9B23C0216A.pdf"
+			(at 228.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:1 N-Channel Drain Source Voltage (Vdss): Continuous Drain Current (Id): Drain Source On Resistance (RDS(on)@Vgs,Id):2.8mΩ@4.5V,20A Power Dissipation (Pd): Gate Threshold Voltage (Vgs(th)@Id):2.2V@250uA Total Gate Charge (Qg@Vgs):65nC@10V Input Capaci"
+			(at 228.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1个N沟道 耐压:30V 电流:50A"
+			(at 228.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "1febeb07-a3ab-4a09-8566-60c1e420e92c")
+		)
+		(pin "6"
+			(uuid "c3934a5d-b77b-48c4-85ec-2652ef504d8e")
+		)
+		(pin "9"
+			(uuid "9f8097aa-f2d3-4615-b666-773c7d943f02")
+		)
+		(pin "7"
+			(uuid "64a4c50f-11b7-4a03-917b-f8db8f611e14")
+		)
+		(pin "8"
+			(uuid "36671241-d059-48ce-9576-d957a68f592a")
+		)
+		(pin "4"
+			(uuid "327e2105-60ba-4122-8a9d-b87999d39fbf")
+		)
+		(pin "3"
+			(uuid "ea9052e3-791a-4800-b173-369863e8d696")
+		)
+		(pin "2"
+			(uuid "3822bcb1-3cea-4545-b6db-8138884ecee9")
+		)
+		(pin "1"
+			(uuid "ec0f9acc-23fd-4aba-adad-4258adb70bae")
+		)
+		(instances
+			(project "fpv_drone"
+				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
+					(reference "Q21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AON7418:AON7418")
+		(at 255.27 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "324de9f4-609b-4cc9-94e0-ee4ffce97658")
+		(property "Reference" "Q24"
+			(at 255.016 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AON7418"
+			(at 251.968 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AON7418:PDFN-8_L3.3-W3.3-P0.65-BL"
+			(at 256.54 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190807/C74384_449E04F421CDCCDE17205D9B23C0216A.pdf"
+			(at 256.54 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:1 N-Channel Drain Source Voltage (Vdss): Continuous Drain Current (Id): Drain Source On Resistance (RDS(on)@Vgs,Id):2.8mΩ@4.5V,20A Power Dissipation (Pd): Gate Threshold Voltage (Vgs(th)@Id):2.2V@250uA Total Gate Charge (Qg@Vgs):65nC@10V Input Capaci"
+			(at 256.54 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1个N沟道 耐压:30V 电流:50A"
+			(at 256.54 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd3524a8-5769-42a1-828b-cd8b369e33d3")
+		)
+		(pin "2"
+			(uuid "406f5e29-28ab-4598-b32a-0bfebe0f0de0")
+		)
+		(pin "3"
+			(uuid "248d6347-9b04-45cd-9b7c-1f62ffbb6b1f")
+		)
+		(pin "4"
+			(uuid "892468ab-a991-45ed-b407-b70daff6d81b")
+		)
+		(pin "5"
+			(uuid "6effa055-df62-4d88-b878-80bf7cfe25ca")
+		)
+		(pin "6"
+			(uuid "885afe78-180b-4ad6-a75c-e59aa47449d3")
+		)
+		(pin "7"
+			(uuid "bfdd13c1-0807-4747-a012-78c3d82604b0")
+		)
+		(pin "8"
+			(uuid "b345017a-6ed7-41e0-89df-36dd47dfc8cc")
+		)
+		(pin "9"
+			(uuid "97b3f07f-7255-4099-94b5-621d35cb2e72")
+		)
+		(instances
+			(project "fpv_drone"
+				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
+					(reference "Q24")
 					(unit 1)
 				)
 			)
@@ -3587,7 +4404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "494be3c3-c4ac-40bc-8a9a-aea57496e54e")
-		(property "Reference" "C43"
+		(property "Reference" "C49"
 			(at 118.11 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3651,172 +4468,7 @@
 		(instances
 			(project ""
 				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 200.66 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5966ff70-ac25-47a1-8dfd-24ff35f192ca")
-		(property "Reference" "C44"
-			(at 201.295 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 201.295 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 201.6252 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 200.66 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1976fec6-8aa6-4450-8f0b-19d45d5e2da5")
-		)
-		(pin "2"
-			(uuid "cf8fcde8-0d51-4c28-aca2-9220e3106abb")
-		)
-		(instances
-			(project ""
-				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 214.63 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ccf1a10-66e8-4a92-a269-c0f27aedbc07")
-		(property "Reference" "Q22"
-			(at 219.71 75.565 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFH5015"
-			(at 219.71 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 219.71 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 214.63 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "259165f7-fdd5-442d-ad76-9c55712fb747")
-		)
-		(pin "2"
-			(uuid "76e3dd21-b43b-4d9c-8df5-c9babbd2c2cb")
-		)
-		(pin "3"
-			(uuid "02860477-3688-417e-9820-77ba0b7c46e4")
-		)
-		(instances
-			(project ""
-				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "Q22")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -3833,7 +4485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5eff4a53-2509-4e99-91c8-e640244c1476")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0113"
 			(at 171.45 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3893,91 +4545,7 @@
 		(instances
 			(project ""
 				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 214.63 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6dacc4e0-22bc-4887-acb2-90a48c3e92df")
-		(property "Reference" "Q23"
-			(at 219.71 89.535 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFH5015"
-			(at 219.71 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 219.71 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 214.63 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "081e481d-559e-405d-9995-a3cdae398c5e")
-		)
-		(pin "1"
-			(uuid "e7f17bee-3def-4a20-b2a9-613e7aeacc9c")
-		)
-		(pin "3"
-			(uuid "31f9e1a5-51ad-43f3-b580-dde212952084")
-		)
-		(instances
-			(project ""
-				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "Q23")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -4128,6 +4696,117 @@
 		)
 	)
 	(symbol
+		(lib_id "AON7418:AON7418")
+		(at 255.27 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "72f0f72d-95d1-4b07-a4eb-5084762deafe")
+		(property "Reference" "Q23"
+			(at 255.27 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AON7418"
+			(at 251.968 71.374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AON7418:PDFN-8_L3.3-W3.3-P0.65-BL"
+			(at 255.27 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190807/C74384_449E04F421CDCCDE17205D9B23C0216A.pdf"
+			(at 255.27 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:1 N-Channel Drain Source Voltage (Vdss): Continuous Drain Current (Id): Drain Source On Resistance (RDS(on)@Vgs,Id):2.8mΩ@4.5V,20A Power Dissipation (Pd): Gate Threshold Voltage (Vgs(th)@Id):2.2V@250uA Total Gate Charge (Qg@Vgs):65nC@10V Input Capaci"
+			(at 255.27 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1个N沟道 耐压:30V 电流:50A"
+			(at 255.27 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "e7b58f97-d6ed-4103-b69a-c6e908753fc3")
+		)
+		(pin "6"
+			(uuid "05213fd5-1601-443d-99b1-b18a946903bc")
+		)
+		(pin "7"
+			(uuid "8bf7c991-8148-4cf9-8b14-e3c0cd17373c")
+		)
+		(pin "8"
+			(uuid "08da4d77-d811-4ba5-ac73-cbc63d20db08")
+		)
+		(pin "9"
+			(uuid "c5bc5756-27bd-41fb-8a68-69fe5d3a6f96")
+		)
+		(pin "2"
+			(uuid "cfe68465-5170-4a33-b7e4-b092d8fc1c1b")
+		)
+		(pin "1"
+			(uuid "6048564d-15b8-4bf5-bff4-aa1bea5e3ff9")
+		)
+		(pin "4"
+			(uuid "2f4500f2-343d-4c53-a9ed-b46ce19cc24c")
+		)
+		(pin "3"
+			(uuid "421cf576-a7f5-476d-b83f-83961d510ddc")
+		)
+		(instances
+			(project "fpv_drone"
+				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
+					(reference "Q23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 115.57 0)
 		(unit 1)
@@ -4138,7 +4817,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78420554-81f8-459a-a84c-e67e505c2c5b")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0111"
 			(at 116.84 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4198,15 +4877,15 @@
 		(instances
 			(project ""
 				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "#PWR091")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 238.76 77.47 0)
+		(lib_id "Device:C")
+		(at 201.93 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4214,9 +4893,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "82ce1900-95f5-47df-bc7a-501a154d033b")
-		(property "Reference" "Q24"
-			(at 243.84 75.565 0)
+		(uuid "7a60366c-74b2-4deb-b48b-2ebcb8f89e1a")
+		(property "Reference" "C50"
+			(at 202.565 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4226,8 +4905,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRFH5015"
-			(at 243.84 77.47 0)
+		(property "Value" "100nF"
+			(at 202.565 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4237,8 +4916,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 243.84 74.93 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 202.8952 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4249,7 +4928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 77.47 0)
+			(at 201.93 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4259,8 +4938,8 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 238.76 77.47 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 201.93 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4271,26 +4950,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "e85ced48-c2c7-493b-9436-86738fd412ff")
+			(uuid "6252dfcc-1a8d-4fdd-9948-371c16270e66")
 		)
 		(pin "2"
-			(uuid "28323158-a4bb-4566-88be-f2d07d7bd861")
-		)
-		(pin "3"
-			(uuid "a4fc889d-b4a1-457e-ad71-a71a747c2363")
+			(uuid "adfe3b62-3ede-40d3-93ff-adb9c132d962")
 		)
 		(instances
-			(project ""
+			(project "fpv_drone"
 				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "Q24")
+					(reference "C50")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 241.3 101.6 0)
+		(lib_id "AON7418:AON7418")
+		(at 228.6 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4298,9 +4974,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a916664f-ddc7-4434-9858-418856ba56b1")
-		(property "Reference" "#PWR95"
-			(at 241.3 107.95 0)
+		(uuid "ae33c64a-775c-4d96-a21c-108564eaf974")
+		(property "Reference" "Q22"
+			(at 228.854 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AON7418"
+			(at 225.298 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AON7418:PDFN-8_L3.3-W3.3-P0.65-BL"
+			(at 228.6 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4310,18 +5006,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 241.3 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 101.6 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190807/C74384_449E04F421CDCCDE17205D9B23C0216A.pdf"
+			(at 228.6 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4331,8 +5017,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 241.3 101.6 0)
+		(property "Description" "Type:1 N-Channel Drain Source Voltage (Vdss): Continuous Drain Current (Id): Drain Source On Resistance (RDS(on)@Vgs,Id):2.8mΩ@4.5V,20A Power Dissipation (Pd): Gate Threshold Voltage (Vgs(th)@Id):2.2V@250uA Total Gate Charge (Qg@Vgs):65nC@10V Input Capaci"
+			(at 228.6 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4342,8 +5028,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 101.6 0)
+		(property "LCSC Part Name" "1个N沟道 耐压:30V 电流:50A"
+			(at 228.6 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4354,96 +5040,147 @@
 			)
 		)
 		(pin "1"
-			(uuid "effb1db1-7f2f-44c8-963f-b92380d6b7f0")
-		)
-		(instances
-			(project ""
-				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "#PWR95")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 190.5 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "baa7340d-4a72-4594-93bc-d3f06ae20bd2")
-		(property "Reference" "Q21"
-			(at 195.58 89.535 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFH5015"
-			(at 195.58 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 195.58 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 190.5 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "c14846e7-14ed-4f49-8f47-d91d14510d29")
 		)
 		(pin "2"
-			(uuid "c2e72dae-6f14-49d9-bca9-9adf0b3a3a1e")
-		)
-		(pin "1"
-			(uuid "2ff258bb-9a10-4395-a747-60223cb226a7")
+			(uuid "20989fb9-10d8-4e7f-ac63-9b5d337fb09c")
 		)
 		(pin "3"
-			(uuid "f8a1c646-4a14-4373-aeb3-d9f01251a3e1")
+			(uuid "cf8c2436-719b-402d-abd3-9ef8f1d70c60")
+		)
+		(pin "4"
+			(uuid "722ad86d-cc57-4c08-917b-5ebe67d66860")
+		)
+		(pin "5"
+			(uuid "64f7edf1-a880-460d-92c1-47400de9d81f")
+		)
+		(pin "8"
+			(uuid "51227a61-5a4f-4e30-abf7-13ce3228c042")
+		)
+		(pin "6"
+			(uuid "e21b18d4-36ef-4b1a-88fb-43b9e162d26c")
+		)
+		(pin "9"
+			(uuid "5eab659a-1394-4101-b304-e1f34b3a8318")
+		)
+		(pin "7"
+			(uuid "88f7bb7f-f5b1-461f-91c7-62b98e206cf3")
 		)
 		(instances
-			(project ""
+			(project "fpv_drone"
 				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "Q21")
+					(reference "Q22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AON7418:AON7418")
+		(at 201.93 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b69b63f3-dc93-4415-802a-5f1739dd2315")
+		(property "Reference" "Q20"
+			(at 202.184 96.266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AON7418"
+			(at 198.628 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AON7418:PDFN-8_L3.3-W3.3-P0.65-BL"
+			(at 201.93 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190807/C74384_449E04F421CDCCDE17205D9B23C0216A.pdf"
+			(at 201.93 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:1 N-Channel Drain Source Voltage (Vdss): Continuous Drain Current (Id): Drain Source On Resistance (RDS(on)@Vgs,Id):2.8mΩ@4.5V,20A Power Dissipation (Pd): Gate Threshold Voltage (Vgs(th)@Id):2.2V@250uA Total Gate Charge (Qg@Vgs):65nC@10V Input Capaci"
+			(at 201.93 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1个N沟道 耐压:30V 电流:50A"
+			(at 201.93 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "a7105da0-d27a-47cf-9695-56d379f40aa6")
+		)
+		(pin "8"
+			(uuid "2a5d52ee-36cc-4f35-a942-72e5788a8d22")
+		)
+		(pin "9"
+			(uuid "2ed1bbd8-3bab-4817-9666-19aeee78f22d")
+		)
+		(pin "3"
+			(uuid "7d88947b-0929-4e3c-9bd1-9622e6d8b45c")
+		)
+		(pin "2"
+			(uuid "9b699b59-e3bb-4fd6-908a-83fccec4859e")
+		)
+		(pin "4"
+			(uuid "f3d91797-1532-42ca-b798-521947ca807a")
+		)
+		(pin "5"
+			(uuid "e83cb2cd-d59c-4a91-8406-a7eff1a6180c")
+		)
+		(pin "6"
+			(uuid "df8dc630-0b4e-4b21-82bf-31f81e9405c6")
+		)
+		(pin "1"
+			(uuid "2e4c2553-6cd5-4f61-95a9-17808986bc89")
+		)
+		(instances
+			(project "fpv_drone"
+				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
+					(reference "Q20")
 					(unit 1)
 				)
 			)
@@ -4460,7 +5197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb283062-5ea4-4bab-8572-320f610356f7")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0110"
 			(at 71.12 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4520,7 +5257,7 @@
 		(instances
 			(project ""
 				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "#PWR090")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -4528,7 +5265,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 265.43 101.6 0)
+		(at 256.54 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4536,9 +5273,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d6bf6d8a-48fb-4e29-912d-4cf2ee3475ce")
-		(property "Reference" "J9"
-			(at 265.43 96.52 0)
+		(uuid "da268339-cfc0-49e6-b11e-30be388d6a40")
+		(property "Reference" "J10"
+			(at 256.54 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4547,8 +5284,8 @@
 				)
 			)
 		)
-		(property "Value" "MOT4"
-			(at 265.43 106.68 0)
+		(property "Value" "MOT3"
+			(at 256.54 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4558,7 +5295,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x03_P7mm_D1.25mm_OD3.5mm"
-			(at 265.43 101.6 0)
+			(at 256.54 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4569,7 +5306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 101.6 0)
+			(at 256.54 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4580,7 +5317,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 265.43 101.6 0)
+			(at 256.54 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4589,104 +5326,20 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "3"
-			(uuid "114f0459-e80e-426d-9868-0595b141c764")
-		)
-		(pin "1"
-			(uuid "dd54eaaf-b926-4b62-9410-85cf1b66f766")
 		)
 		(pin "2"
-			(uuid "379ca19c-ce67-4c2a-8bdd-9903a8f606d3")
-		)
-		(instances
-			(project ""
-				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 190.5 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dc9ddd00-0537-4c1a-8f63-2db588f212b0")
-		(property "Reference" "Q20"
-			(at 195.58 75.565 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFH5015"
-			(at 195.58 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 195.58 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 190.5 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "545f2341-dcb0-4932-98e6-4a652e67a765")
-		)
-		(pin "2"
-			(uuid "a399f3b1-5e37-4e14-b90a-f7237987e1bd")
+			(uuid "69c9bc3a-bc0f-494c-906b-a3768149e31f")
 		)
 		(pin "3"
-			(uuid "801cf6f8-9214-47b0-9ece-6f80350b5cbd")
+			(uuid "4723faa0-e518-496b-adc3-f891797e4dc1")
+		)
+		(pin "1"
+			(uuid "c9b66671-7c92-4254-8f37-04e501bdf25b")
 		)
 		(instances
-			(project ""
+			(project "fpv_drone"
 				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "Q20")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -4703,7 +5356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0194b39-4430-48e8-b3e0-b9167dbb409c")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0109"
 			(at 71.12 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4763,15 +5416,15 @@
 		(instances
 			(project ""
 				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "#PWR089")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 238.76 91.44 0)
+		(lib_id "AON7418:AON7418")
+		(at 201.93 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4779,31 +5432,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e2fd2bd9-1043-43c3-9195-b4a669db1867")
-		(property "Reference" "Q25"
-			(at 243.84 89.535 0)
+		(uuid "e37cb515-c47c-4fbd-98f3-70572e5488aa")
+		(property "Reference" "Q19"
+			(at 201.676 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "IRFH5015"
-			(at 243.84 91.44 0)
+		(property "Value" "AON7418"
+			(at 198.628 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 243.84 88.9 0)
+		(property "Footprint" "AON7418:PDFN-8_L3.3-W3.3-P0.65-BL"
+			(at 201.93 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4813,8 +5464,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 238.76 91.44 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190807/C74384_449E04F421CDCCDE17205D9B23C0216A.pdf"
+			(at 201.93 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4824,8 +5475,8 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 238.76 91.44 0)
+		(property "Description" "Type:1 N-Channel Drain Source Voltage (Vdss): Continuous Drain Current (Id): Drain Source On Resistance (RDS(on)@Vgs,Id):2.8mΩ@4.5V,20A Power Dissipation (Pd): Gate Threshold Voltage (Vgs(th)@Id):2.2V@250uA Total Gate Charge (Qg@Vgs):65nC@10V Input Capaci"
+			(at 201.93 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4835,19 +5486,48 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "3de318c3-ada6-4020-bfa6-0925ed78a921")
-		)
-		(pin "2"
-			(uuid "d8e1e3b4-6f62-4016-a008-88d4b5b4608a")
+		(property "LCSC Part Name" "1个N沟道 耐压:30V 电流:50A"
+			(at 201.93 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "3"
-			(uuid "5b1ae1dd-b672-4e51-ab3d-1e8ea8a6e1ab")
+			(uuid "c006a309-0dea-4f41-869b-6e137ddfc039")
+		)
+		(pin "2"
+			(uuid "d05e474a-c6ad-478e-9707-0f39536d2328")
+		)
+		(pin "1"
+			(uuid "4554ed4f-6c66-4b47-9e80-01a5a7e65616")
+		)
+		(pin "9"
+			(uuid "7ea254e4-8136-4eb3-a083-aa8408137bd2")
+		)
+		(pin "8"
+			(uuid "04d43808-d658-402b-966a-f7cc218754f1")
+		)
+		(pin "7"
+			(uuid "574efa6e-fa15-48d2-a8e4-79855a10dd92")
+		)
+		(pin "4"
+			(uuid "8a746c12-489e-4af6-b037-fd55cd154ae9")
+		)
+		(pin "5"
+			(uuid "09e3e944-dd99-494c-b19e-aefc5102e4a1")
+		)
+		(pin "6"
+			(uuid "cd18eb9b-6630-4d9e-8031-8f642535780a")
 		)
 		(instances
-			(project ""
+			(project "fpv_drone"
 				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "Q25")
+					(reference "Q19")
 					(unit 1)
 				)
 			)
@@ -4864,7 +5544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e79ab912-ee71-430e-ab56-a3c310369851")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0108"
 			(at 67.31 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4924,15 +5604,15 @@
 		(instances
 			(project ""
 				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "#PWR088")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 193.04 101.6 0)
+		(lib_id "Device:C")
+		(at 232.41 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4940,30 +5620,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f583e2e1-d0a4-4384-b03e-d9e127c8d709")
-		(property "Reference" "#PWR93"
-			(at 193.04 107.95 0)
-			(hide yes)
+		(uuid "efe586c1-360f-405c-8463-381e74fa7424")
+		(property "Reference" "C52"
+			(at 233.045 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 193.04 105.41 0)
+		(property "Value" "100nF"
+			(at 233.045 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 193.04 101.6 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 233.3752 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4974,7 +5655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 101.6 0)
+			(at 232.41 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4984,8 +5665,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 101.6 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 232.41 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4996,12 +5677,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "22080427-1cee-4209-a7d7-c7252e7afd46")
+			(uuid "21ee8a86-ab1e-4765-969b-495ba5a6d3ca")
+		)
+		(pin "2"
+			(uuid "6009cac4-333e-4005-afe0-1df84fb7014f")
 		)
 		(instances
-			(project ""
+			(project "fpv_drone"
 				(path "/bcc951e4-6780-442e-8e93-0576bc471757/5777906f-a045-4995-adae-0ee0fbdca4f8/72283922-9bbb-442c-9e2e-0885de734bc7"
-					(reference "#PWR93")
+					(reference "C52")
 					(unit 1)
 				)
 			)
