@@ -1,4 +1,4 @@
-![../assets/zeodemoboard.JPG]
+![Zeo Demo Board](../assets/zeodemoboard.JPG)
 
 # ZeoDevBoard
 
