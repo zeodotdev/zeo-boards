@@ -1,0 +1,340 @@
+(kicad_sch
+	(version 20260101)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2a8290d9-7199-41d9-9065-5b3745cf19ea")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "ESC4_TELEM"
+		(shape input)
+		(at 101.6 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "107fa091-a675-450f-b228-42085319a8bd")
+	)
+	(hierarchical_label "ESC3_TELEM"
+		(shape input)
+		(at 30.48 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "13e4c239-13de-46e5-b882-2d82837adca9")
+	)
+	(hierarchical_label "MOT1_PWM"
+		(shape input)
+		(at 30.48 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "15991bf5-fb6a-4416-a791-362c9b2f687e")
+	)
+	(hierarchical_label "ESC1_TELEM"
+		(shape input)
+		(at 30.48 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "38dc8e4e-e6fc-4481-af39-9ef90df8692e")
+	)
+	(hierarchical_label "ESC2_TELEM"
+		(shape input)
+		(at 101.6 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e72d020-a0a5-4e0c-ad2f-5345056a0224")
+	)
+	(hierarchical_label "MOT4_PWM"
+		(shape input)
+		(at 101.6 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "54dc7caa-f3c4-4411-8ab0-7b46962fc3f1")
+	)
+	(hierarchical_label "MOT3_PWM"
+		(shape input)
+		(at 30.48 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "84cf300c-429e-46a1-9009-b66a970d5260")
+	)
+	(hierarchical_label "MOT2_PWM"
+		(shape input)
+		(at 101.6 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(line_spacing 0)
+			)
+			(justify right bottom)
+		)
+		(uuid "a50eefce-12d7-455c-9f74-e2865c3a2d7a")
+	)
+	(sheet
+		(at 30.48 80.01)
+		(size 50 35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0862e1c8-89bd-4fe8-a3bf-44ac890ddb3b")
+		(property "Sheetname" "Motor 3"
+			(at 30.48 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esc_ch3.kicad_sch"
+			(at 30.48 115.5946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESC3_TELEM" input
+			(at 30.48 82.55 180)
+			(uuid "5cddcdf4-75d6-475a-acba-6476f7fc2b54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT3_PWM" input
+			(at 30.48 85.09 180)
+			(uuid "1969c39f-2999-4db5-916b-0e6b5e56c3fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 80.01)
+		(size 50 35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "72283922-9bbb-442c-9e2e-0885de734bc7")
+		(property "Sheetname" "Motor 4"
+			(at 101.6 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esc_ch4.kicad_sch"
+			(at 101.6 115.5946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESC4_TELEM" input
+			(at 101.6 82.55 180)
+			(uuid "01e17e66-3a6e-4e94-b04e-203561001936")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT4_PWM" input
+			(at 101.6 85.09 180)
+			(uuid "639d1f75-e152-41c9-932d-87e4a0b9b8b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 30.48)
+		(size 50 35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a70d2140-d86c-47db-b2bf-b91e09e38e13")
+		(property "Sheetname" "Motor 2"
+			(at 101.6 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esc_ch2.kicad_sch"
+			(at 101.6 66.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESC2_TELEM" input
+			(at 101.6 33.02 180)
+			(uuid "248beca2-f977-44ff-9d42-4124a6538f77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT2_PWM" input
+			(at 101.6 35.56 180)
+			(uuid "831a6c35-4a35-4c75-be5e-30c750744c77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 30.48)
+		(size 50 35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f69a76f6-83b1-407f-95be-48a5500aa7ae")
+		(property "Sheetname" "Motor 1"
+			(at 30.48 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esc_ch1.kicad_sch"
+			(at 30.48 66.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESC1_TELEM" input
+			(at 30.48 33.02 180)
+			(uuid "ed0e010c-e261-4968-93fe-e225335da882")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT1_PWM" input
+			(at 30.48 35.56 180)
+			(uuid "2bb65064-295f-4001-a042-523d904dd0df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+)
