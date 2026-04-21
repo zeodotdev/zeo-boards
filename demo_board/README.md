@@ -1,3 +1,5 @@
+![../assets/zeodemoboard.JPG]
+
 # ZeoDevBoard
 
 ESP32-S3 development board with onboard BME280 (temperature, humidity, pressure) and LSM6DS3 (6-axis IMU) sensors. This repo contains the designs, ESP-IDF firmware, and a Python plotter for visualization.
