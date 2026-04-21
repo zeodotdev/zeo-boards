@@ -7,3 +7,4 @@ This is a repo of boards made with zeo made by the team and submitted by users.
 - jared_tv_remote: Jared's universal TV remote, codename: "Bromote 9000"
 - fpv_drone: PCB drone frame designed for DL2205-2300KV Motors. placed by hand + routed by hand
 - zeo1.2_devboard: a more powerful 1inx1in sensor board build built on the esp32s3: placed + routed by hand
+- zeo_compute_module: a compute module designed arounf the RK3588, in-progress

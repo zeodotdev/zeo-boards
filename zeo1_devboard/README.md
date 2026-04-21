@@ -1,1 +1,1 @@
-!(Zeo1 Devboard)[../assets/zeo1.JPG]
+![Zeo1 Devboard](../assets/zeo1.JPG)
