@@ -1,0 +1,3602 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.2,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": true,
+          "text_position": 0,
+          "units_format": 0
+        },
+        "fab_line_width": 0.1,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.1,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
+        },
+        "silk_line_width": 0.1,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.1,
+        "silk_text_upright": false,
+        "zones": {
+          "min_clearance": 0.5
+        }
+      },
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "meta": {
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "error",
+        "creepage": "error",
+        "cross_board_binding": "error",
+        "cross_board_consistency": "error",
+        "cross_board_current": "error",
+        "cross_board_diff_pair": "error",
+        "cross_board_length": "error",
+        "cross_board_orphan_pad": "error",
+        "cross_board_power_pins": "error",
+        "cross_board_voltage_drop": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
+        "hole_clearance": "error",
+        "hole_to_hole": "warning",
+        "holes_co_located": "warning",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
+        "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
+        "npth_inside_courtyard": "error",
+        "padstack": "warning",
+        "pth_inside_courtyard": "error",
+        "shorting_items": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_on_edge_cuts": "error",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_angle": "error",
+        "track_dangling": "warning",
+        "track_on_post_machined_layer": "error",
+        "track_segment_length": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "max_error": 0.005,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.5,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 2,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
+        "solder_mask_to_copper_clearance": 0.0,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpthpad": true,
+          "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
+          "td_ontrackend": false,
+          "td_onvia": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
+      "track_widths": [],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [],
+      "zones_allow_external_fillets": false
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "cross_board_stale_pin": "warning",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "field_name_whitespace": "warning",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "ground_pin_not_ground": "warning",
+      "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "multi-board-ex.kicad_pro",
+    "version": 3
+  },
+  "multi_board": {
+    "assembly_3d": {
+      "collision_threshold_mm": 0.5,
+      "instances": [
+        {
+          "opacity": 1.0,
+          "position": [
+            -0.0,
+            -0.0,
+            3.049999952316284
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sub_project": "2178f1e7-330f-4052-b29f-90a175f24cb5",
+          "transparent": false,
+          "visible": true
+        },
+        {
+          "opacity": 1.0,
+          "position": [
+            0.0,
+            0.0,
+            21.600000381469727
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sub_project": "b4d2051d-7819-4660-a10c-d3ed8c4e05d5",
+          "transparent": false,
+          "visible": true
+        },
+        {
+          "opacity": 1.0,
+          "position": [
+            40.380001068115234,
+            -5.179999828338623,
+            12.800000190734863
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            90.0
+          ],
+          "sub_project": "1e341d5d-f1d0-42fd-887a-6ff39d06e1b3",
+          "transparent": false,
+          "visible": true
+        },
+        {
+          "opacity": 1.0,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sub_project": "faa532c2-6687-4225-af82-14aed2c5ebfb",
+          "transparent": false,
+          "visible": true
+        }
+      ],
+      "mates": []
+    },
+    "boards": [],
+    "component_assignments": [],
+    "container": true,
+    "container_project_relative_path": "",
+    "cross_board_connections": [],
+    "cross_board_diff_pairs": [],
+    "cross_board_nets": [
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "4",
+            "pin_name": "+3V3",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "4",
+            "pin_name": "+3V3",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "+3V3",
+        "uuid": "41286fe8-efef-43fc-b6d6-83d670fb64b5"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "J2",
+            "pin": "6",
+            "pin_name": "+3V3",
+            "sub_project_uuid": "1e341d5d-f1d0-42fd-887a-6ff39d06e1b3"
+          },
+          {
+            "component": "J3",
+            "pin": "6",
+            "pin_name": "+3V3",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "+3V3",
+        "uuid": "f786d12b-af99-4cdd-bea5-b61512d4f781"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "6",
+            "pin_name": "+3V3",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "7",
+            "pin_name": "+3V3",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "7",
+            "pin_name": "+3V3",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "6",
+            "pin_name": "+3V3",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "+3V3",
+        "uuid": "2e032ca2-c129-42fb-b583-62e025fc282a"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "3",
+            "pin_name": "+5V",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "4",
+            "pin_name": "+5V",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "4",
+            "pin_name": "+5V",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "3",
+            "pin_name": "+5V",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "+5V",
+        "uuid": "a3ffdad5-9e58-4d33-8434-4a5e84c89877"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "3",
+            "pin_name": "+5V",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "3",
+            "pin_name": "+5V",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "+5V",
+        "uuid": "aeee8842-45d5-4e4e-ba5e-b4fa47cf676b"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "J2",
+            "pin": "8",
+            "pin_name": "/{slash}EN",
+            "sub_project_uuid": "1e341d5d-f1d0-42fd-887a-6ff39d06e1b3"
+          },
+          {
+            "component": "J3",
+            "pin": "8",
+            "pin_name": "/EN",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/EN",
+        "uuid": "de0554ac-306e-4c79-ad31-156333480a1c"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "9",
+            "pin_name": "/EN",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "9",
+            "pin_name": "/EN",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/EN",
+        "uuid": "a9d8add5-586a-4a02-a8b8-513d31082fb9"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "24",
+            "pin_name": "/FLASH_CS1",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "24",
+            "pin_name": "/FLASH_CS1",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/FLASH_CS1",
+        "uuid": "57709f5b-4aac-4af7-b122-f4273140ea92"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "40",
+            "pin_name": "/FLASH_CS1",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "40",
+            "pin_name": "/FLASH_CS1",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/FLASH_CS1",
+        "uuid": "e64b52b6-e7f0-46e2-9a38-364c38101e5b"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "10",
+            "pin_name": "/GPIO0",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "10",
+            "pin_name": "/GPIO0",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO0",
+        "uuid": "d2ec00ad-0642-4ea2-a944-0c3e8d8c0e39"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "11",
+            "pin_name": "/GPIO1",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "11",
+            "pin_name": "/GPIO1",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO1",
+        "uuid": "cde0cbc5-5529-4d4b-baab-c3ccdf744bc0"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "22",
+            "pin_name": "/GPIO10",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "22",
+            "pin_name": "/GPIO10",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO10",
+        "uuid": "b77ebbde-42f2-46c4-a857-2070e9114ac9"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "23",
+            "pin_name": "/GPIO11",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "23",
+            "pin_name": "/GPIO11",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO11",
+        "uuid": "e6ba1742-b257-4905-81ef-c754cca7aa6d"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "24",
+            "pin_name": "/GPIO12",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "24",
+            "pin_name": "/GPIO12",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO12",
+        "uuid": "cc3d7844-8e9a-47d3-90a9-841ac986fc92"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "25",
+            "pin_name": "/GPIO13",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "25",
+            "pin_name": "/GPIO13",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO13",
+        "uuid": "0a98ac6b-9dd0-4d1b-9656-2aa91e9790ca"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "26",
+            "pin_name": "/GPIO14",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "26",
+            "pin_name": "/GPIO14",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO14",
+        "uuid": "1fceff5a-8a18-4808-859f-3ca09380f1c0"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "28",
+            "pin_name": "/GPIO17",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "28",
+            "pin_name": "/GPIO17",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO17",
+        "uuid": "242dfd35-f020-45bd-9858-9806afa72c05"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "29",
+            "pin_name": "/GPIO18",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "29",
+            "pin_name": "/GPIO18",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO18",
+        "uuid": "213219e2-801e-48f2-9198-1189b2d3bc1b"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "12",
+            "pin_name": "/GPIO2",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "12",
+            "pin_name": "/GPIO2",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO2",
+        "uuid": "765a8c1d-9d4e-44f6-b935-ef63714a812e"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "30",
+            "pin_name": "/GPIO21",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "30",
+            "pin_name": "/GPIO21",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO21",
+        "uuid": "f334c776-b0e0-4b16-ac94-992cabe748e8"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "13",
+            "pin_name": "/GPIO3",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "13",
+            "pin_name": "/GPIO3",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO3",
+        "uuid": "f12d8262-4832-4b6b-bc6c-c6df3b9e980c"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "11",
+            "pin_name": "/GPIO33",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "11",
+            "pin_name": "/GPIO33",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO33",
+        "uuid": "aa418d4d-0d1a-4f72-a4f1-8a19f977258b"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "12",
+            "pin_name": "/GPIO34",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "12",
+            "pin_name": "/GPIO34",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO34",
+        "uuid": "89d32428-b42b-4f99-9a7f-398693f43eeb"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "13",
+            "pin_name": "/GPIO35",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "13",
+            "pin_name": "/GPIO35",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO35",
+        "uuid": "216792d7-e535-4bc0-a1d6-4c917054ad38"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "14",
+            "pin_name": "/GPIO36",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "14",
+            "pin_name": "/GPIO36",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO36",
+        "uuid": "f53484a4-5c63-42f8-89b9-fe537991122d"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "15",
+            "pin_name": "/GPIO37",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "15",
+            "pin_name": "/GPIO37",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO37",
+        "uuid": "c109ad3c-18fa-414d-aef6-4b93d8d0243d"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "16",
+            "pin_name": "/GPIO38",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "16",
+            "pin_name": "/GPIO38",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO38",
+        "uuid": "228757d0-014b-4310-8376-0419a2d23265"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "14",
+            "pin_name": "/GPIO4",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "14",
+            "pin_name": "/GPIO4",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO4",
+        "uuid": "f54eba20-f41d-4595-bd5d-5bfc1e7a43eb"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "18",
+            "pin_name": "/GPIO45",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "18",
+            "pin_name": "/GPIO45",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO45",
+        "uuid": "40606b55-0707-4482-be08-33d21ea20009"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "19",
+            "pin_name": "/GPIO46",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "19",
+            "pin_name": "/GPIO46",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO46",
+        "uuid": "e05b915f-f44f-4a9d-bd4b-a7497c55243a"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "16",
+            "pin_name": "/GPIO5",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "16",
+            "pin_name": "/GPIO5",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO5",
+        "uuid": "75c5312c-304f-4c13-ad7d-f13fa739d4ac"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "17",
+            "pin_name": "/GPIO6",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "17",
+            "pin_name": "/GPIO6",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO6",
+        "uuid": "3e7ea5e6-b2b0-47fc-8e05-2ba680a5a4b4"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "18",
+            "pin_name": "/GPIO7",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "18",
+            "pin_name": "/GPIO7",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO7",
+        "uuid": "a7040e7b-8bd8-4dee-b0b4-7f613e06b582"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "19",
+            "pin_name": "/GPIO8",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "19",
+            "pin_name": "/GPIO8",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO8",
+        "uuid": "9fdeb37e-f1db-46a0-ba41-7d8a923c3d04"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "20",
+            "pin_name": "/GPIO9",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "20",
+            "pin_name": "/GPIO9",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/GPIO9",
+        "uuid": "80ea7ac3-dea5-42e3-ad92-639401398e6c"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "J2",
+            "pin": "1",
+            "pin_name": "/JTAG_TCK",
+            "sub_project_uuid": "1e341d5d-f1d0-42fd-887a-6ff39d06e1b3"
+          },
+          {
+            "component": "J3",
+            "pin": "1",
+            "pin_name": "/JTAG_TCK",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/JTAG_TCK",
+        "uuid": "b23533b5-5d8e-4a31-a771-a22a188598eb"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "6",
+            "pin_name": "/JTAG_TCK",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "6",
+            "pin_name": "/JTAG_TCK",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/JTAG_TCK",
+        "uuid": "11eb7453-b627-4af9-8ead-02cf3eaf4b38"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "J2",
+            "pin": "7",
+            "pin_name": "/JTAG_TDI",
+            "sub_project_uuid": "1e341d5d-f1d0-42fd-887a-6ff39d06e1b3"
+          },
+          {
+            "component": "J3",
+            "pin": "7",
+            "pin_name": "/JTAG_TDI",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/JTAG_TDI",
+        "uuid": "6685d10c-9c9d-4774-9c78-97ebbbef7264"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "8",
+            "pin_name": "/JTAG_TDI",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "8",
+            "pin_name": "/JTAG_TDI",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/JTAG_TDI",
+        "uuid": "41958ba7-bbfa-49fe-8f34-6b2c68dc2881"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "J2",
+            "pin": "3",
+            "pin_name": "/JTAG_TDO",
+            "sub_project_uuid": "1e341d5d-f1d0-42fd-887a-6ff39d06e1b3"
+          },
+          {
+            "component": "J3",
+            "pin": "3",
+            "pin_name": "/JTAG_TDO",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/JTAG_TDO",
+        "uuid": "85570638-e7fe-4891-95bd-474678265f6a"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "7",
+            "pin_name": "/JTAG_TDO",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "7",
+            "pin_name": "/JTAG_TDO",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/JTAG_TDO",
+        "uuid": "0541a263-c706-459f-9572-5c0c75af2b02"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "J2",
+            "pin": "5",
+            "pin_name": "/JTAG_TMS",
+            "sub_project_uuid": "1e341d5d-f1d0-42fd-887a-6ff39d06e1b3"
+          },
+          {
+            "component": "J3",
+            "pin": "5",
+            "pin_name": "/JTAG_TMS",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/JTAG_TMS",
+        "uuid": "a556e59b-7290-445f-a2da-2fe00f66f6bb"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "9",
+            "pin_name": "/JTAG_TMS",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "9",
+            "pin_name": "/JTAG_TMS",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/JTAG_TMS",
+        "uuid": "77634b3a-cb60-4fa8-abe4-e294395e32fb"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "22",
+            "pin_name": "/PSRAM_CLK_N",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "22",
+            "pin_name": "/PSRAM_CLK_N",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/PSRAM_CLK_N",
+        "uuid": "5a23fb98-d0af-4437-afd6-85c709ca19fb"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "21",
+            "pin_name": "/PSRAM_CLK_P",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "21",
+            "pin_name": "/PSRAM_CLK_P",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/PSRAM_CLK_P",
+        "uuid": "2cc83531-0b69-4c16-894a-4583b0af0c47"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "36",
+            "pin_name": "/UART0_RX",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "36",
+            "pin_name": "/UART0_RX",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/UART0_RX",
+        "uuid": "f6b5ed77-fe62-4cfc-9200-c623aa5d8873"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "35",
+            "pin_name": "/UART0_TX",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "35",
+            "pin_name": "/UART0_TX",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/UART0_TX",
+        "uuid": "609ab719-5216-4fa3-b1dd-2f2497bcea05"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "32",
+            "pin_name": "/USB_DN",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "32",
+            "pin_name": "/USB_DN",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/USB_DN",
+        "uuid": "3c1845a9-a5eb-4898-8bef-09a24c591d1b"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "33",
+            "pin_name": "/USB_DP",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "33",
+            "pin_name": "/USB_DP",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "/USB_DP",
+        "uuid": "c6cfe5e6-2c27-4d90-b772-165dd8120bf3"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "J2",
+            "pin": "4",
+            "pin_name": "GND",
+            "sub_project_uuid": "1e341d5d-f1d0-42fd-887a-6ff39d06e1b3"
+          },
+          {
+            "component": "J2",
+            "pin": "2",
+            "pin_name": "GND",
+            "sub_project_uuid": "1e341d5d-f1d0-42fd-887a-6ff39d06e1b3"
+          },
+          {
+            "component": "J2",
+            "pin": "9",
+            "pin_name": "GND",
+            "sub_project_uuid": "1e341d5d-f1d0-42fd-887a-6ff39d06e1b3"
+          },
+          {
+            "component": "J2",
+            "pin": "10",
+            "pin_name": "GND",
+            "sub_project_uuid": "1e341d5d-f1d0-42fd-887a-6ff39d06e1b3"
+          },
+          {
+            "component": "J3",
+            "pin": "2",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "J3",
+            "pin": "4",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "J3",
+            "pin": "10",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "J3",
+            "pin": "9",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "GND",
+        "uuid": "c98c5952-80ef-4057-91af-62e125337b1b"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN1",
+            "pin": "60",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "61",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "62",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "63",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "64",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "65",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "66",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "67",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "68",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "69",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "70",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "71",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "72",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "73",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "74",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "75",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "76",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "77",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "78",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "79",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "80",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "81",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "82",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "83",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "84",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "5",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "8",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "2",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "1",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "85",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "86",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "87",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "88",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "89",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "90",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "91",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "92",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "93",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "94",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "95",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "96",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "97",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "98",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "99",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "100",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "37",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "38",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "39",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "41",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "42",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "43",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "44",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "45",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "46",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "47",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "48",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "49",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "50",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "51",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "52",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "53",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "54",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "55",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "56",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "57",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "58",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "59",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "15",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "34",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "21",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "27",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "31",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN1",
+            "pin": "79",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "80",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "81",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "82",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "83",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "84",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "85",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "86",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "87",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "88",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "89",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "90",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "91",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "92",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "93",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "94",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "95",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "96",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "97",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "98",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "99",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "100",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "54",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "55",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "56",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "57",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "58",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "59",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "60",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "61",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "62",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "63",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "64",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "65",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "66",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "67",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "68",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "69",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "70",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "71",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "72",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "73",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "74",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "75",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "76",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "77",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "78",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "31",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "34",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "37",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "38",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "39",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "41",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "42",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "43",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "44",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "45",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "46",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "47",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "48",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "49",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "50",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "51",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "52",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "53",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "21",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "15",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "8",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "5",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "2",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "1",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN1",
+            "pin": "27",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "GND",
+        "uuid": "c6326fbd-b447-4b84-aeea-0b96c0e0817f"
+      },
+      {
+        "endpoints": [
+          {
+            "component": "CN2",
+            "pin": "60",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "61",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "62",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "63",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "64",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "65",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "66",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "67",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "68",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "69",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "70",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "71",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "72",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "73",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "74",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "75",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "76",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "77",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "78",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "79",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "80",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "81",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "82",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "83",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "84",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "10",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "5",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "2",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "1",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "85",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "86",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "87",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "88",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "89",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "90",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "91",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "92",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "93",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "94",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "95",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "96",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "97",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "98",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "99",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "100",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "35",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "36",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "37",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "38",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "39",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "40",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "41",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "42",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "43",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "44",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "45",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "46",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "47",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "48",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "49",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "50",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "51",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "52",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "53",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "54",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "55",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "56",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "57",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "58",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "59",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "34",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "33",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "17",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "20",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "23",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "25",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "26",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "27",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "28",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "29",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "30",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "31",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "32",
+            "pin_name": "GND",
+            "sub_project_uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+          },
+          {
+            "component": "CN2",
+            "pin": "79",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "80",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "81",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "82",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "83",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "84",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "85",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "86",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "87",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "88",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "89",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "90",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "91",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "92",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "93",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "94",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "95",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "96",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "97",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "98",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "99",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "100",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "54",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "55",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "56",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "57",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "58",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "59",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "60",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "61",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "62",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "63",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "64",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "65",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "66",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "67",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "68",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "69",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "70",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "71",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "72",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "73",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "74",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "75",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "76",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "77",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "78",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "29",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "30",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "31",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "32",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "33",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "34",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "35",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "36",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "37",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "38",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "39",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "40",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "41",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "42",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "43",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "44",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "45",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "46",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "47",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "48",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "49",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "50",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "51",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "52",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "53",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "23",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "20",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "17",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "10",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "5",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "2",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "25",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "1",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "28",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "27",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          },
+          {
+            "component": "CN2",
+            "pin": "26",
+            "pin_name": "GND",
+            "sub_project_uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+          }
+        ],
+        "name": "GND",
+        "uuid": "3ee742e0-f881-4fb1-8ba9-3df71b6e224c"
+      }
+    ],
+    "current_rules": {},
+    "max_length_nm": {},
+    "mbs_file": "multi-board-ex.kicad_mbs",
+    "min_power_pins": {},
+    "sub_projects": [
+      {
+        "display_name": "esp_cm",
+        "name": "esp_cm",
+        "path": "boards/esp_cm/esp_cm.kicad_pro",
+        "role": "standard",
+        "uuid": "2178f1e7-330f-4052-b29f-90a175f24cb5"
+      },
+      {
+        "display_name": "jtag_to_usb",
+        "name": "jtag_to_usb",
+        "path": "boards/jtag_to_usb/jtag_to_usb.kicad_pro",
+        "role": "standard",
+        "uuid": "1e341d5d-f1d0-42fd-887a-6ff39d06e1b3"
+      },
+      {
+        "display_name": "esp_cm_breakout",
+        "name": "esp_cm_breakout",
+        "path": "boards/esp_cm_breakout/esp_cm_breakout.kicad_pro",
+        "role": "standard",
+        "uuid": "faa532c2-6687-4225-af82-14aed2c5ebfb"
+      }
+    ],
+    "voltage_rules": {}
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 5
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "specctra_dsn": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
+    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": true,
+      "name": "Default Editing",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "bus_aliases": {},
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "hop_over_size_choice": 0,
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "reuse_designators": true,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "multi-board-ex.kicad_mbs",
+        "name": "Root",
+        "uuid": "1be346bb-310f-4391-ad4b-8d2ca7229b57"
+      }
+    ],
+    "used_designators": "",
+    "variants": []
+  },
+  "sheets": [
+    [
+      "1be346bb-310f-4391-ad4b-8d2ca7229b57",
+      "Root"
+    ]
+  ],
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  },
+  "viewer3d": {
+    "color_overrides": {},
+    "use_stackup_colors": null,
+    "visibility_overrides": {}
+  }
+}

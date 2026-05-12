@@ -53,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_5fffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -63,13 +63,11 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "zeo1.2_devboard.kicad_prl",
+    "filename": "esp_cm_breakout.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
       false,
       false,
       false,
@@ -95,9 +93,7 @@
       8,
       9,
       10,
-      11,
-      12,
-      13
+      11
     ],
     "col_widths": [
       156,
@@ -110,8 +106,6 @@
       74,
       103,
       130,
-      103,
-      103,
       103,
       103
     ],

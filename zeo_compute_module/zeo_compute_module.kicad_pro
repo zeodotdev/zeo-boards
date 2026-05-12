@@ -472,6 +472,27 @@
     "filename": "zeo_compute_module.kicad_pro",
     "version": 3
   },
+  "multi_board": {
+    "assembly_3d": {
+      "collision_threshold_mm": 0.5,
+      "instances": [],
+      "mates": []
+    },
+    "boards": [],
+    "component_assignments": [],
+    "container": false,
+    "container_project_relative_path": "",
+    "cross_board_connections": [],
+    "cross_board_diff_pairs": [],
+    "cross_board_nets": [],
+    "current_rules": {},
+    "inherit_net_settings": false,
+    "max_length_nm": {},
+    "mbs_file": "",
+    "min_power_pins": {},
+    "sub_projects": [],
+    "voltage_rules": {}
+  },
   "net_settings": {
     "classes": [
       {
@@ -629,7 +650,7 @@
         "uuid": "50dd5bcb-70d1-4a02-8a86-d6cd1ccf8b3d"
       }
     ],
-    "used_designators": "X1-2,L1-12,R1-15,#PWR1-89,C1-61,CN1-2,U1-8",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -680,5 +701,10 @@
       "version": 0
     },
     "tuning_profiles_impedance_geometric": []
+  },
+  "viewer3d": {
+    "color_overrides": {},
+    "use_stackup_colors": null,
+    "visibility_overrides": {}
   }
 }

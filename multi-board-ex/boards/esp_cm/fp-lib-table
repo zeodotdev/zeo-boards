@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "DF40C-100DP-0.4V(51)") (type "EasyEDA / JLCEDA Pro") (uri "${KIPRJMOD}/library/easyeda/DF40C-100DP-0.4V(51).elibz") (options "") (descr ""))
+	(lib (name "DF40C-100DS-0.4V(51)") (type "EasyEDA / JLCEDA Pro") (uri "${KIPRJMOD}/library/easyeda/DF40C-100DS-0.4V(51).elibz") (options "") (descr ""))
+)
